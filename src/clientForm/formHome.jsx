@@ -7,7 +7,6 @@ import '../i18next';
 
 const FormHome = () => {
 	const { t } = useTranslation();
-	const [subject, setSubject] = useState();
 	const [name, setName] = useState();
 	const [numbers, setNumbers] = useState();
 	const [maill, setMaill] = useState();

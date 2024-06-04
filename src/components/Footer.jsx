@@ -1,8 +1,6 @@
 import '../i18next';
-import { useTranslation } from 'react-i18next';
 import styles from './styles/footer.module.css';
 import '../../src/index.css';
-import { useState } from 'react';
 import Navigation from './Navigation.jsx';
 import SocialImg from './SocialImg.jsx';
 import Logo from './Logo.jsx';
@@ -14,8 +12,6 @@ import Viber from '../assets/Social Media/viber.svg';
 import yot from '../assets/Social Media/Youtube.svg';
 
 const Footer = () => {
-	const { t } = useTranslation();
-	const [isOpen, setIsOpen] = useState(false);
 	const paramCard = {
 		routerLink1: {
 			socialHref: 'socialHref',

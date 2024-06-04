@@ -1,14 +1,12 @@
 import styles from './styles/blokForma.module.css';
-import { useTranslation } from 'react-i18next';
 import '../i18next';
 import Titles from './Titles';
 import TextTitle from './TextTitle';
 import FormHome from '../clientForm/formHome';
 import BacgCard from './BacgCard';
-import ImgB from '../assets/Rectangle 24.svg';
+import ImgB from '../assets/Rectangle24.svg';
 // eslint-disable-next-line react/prop-types
 const BlocFormHom = () => {
-	const { t } = useTranslation();
 	return (
 		<>
 			<div className={styles['container_form']}>

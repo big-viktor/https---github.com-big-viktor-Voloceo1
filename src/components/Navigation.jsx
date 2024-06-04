@@ -1,15 +1,11 @@
 import { Link } from 'react-router-dom';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
-import logo from '../assets/Frame.svg';
 import styles from './styles/navigation.module.css';
 import '../../src/index.css';
-import MenuLang from './MenuLang';
-import { useState } from 'react';
 
 const Navigation = () => {
 	const { t } = useTranslation();
-	const [isOpen, setIsOpen] = useState(false);
 
 	return (
 		<>

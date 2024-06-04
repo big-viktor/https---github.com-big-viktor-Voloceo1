@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 // import Card from './Card.jsx';
 // import ImgThre from '../assets/Frame 77.svg';
 import BacgCard from './BacgCard.jsx';
-import ImgPc from '../assets/Rectangle 40.svg';
-import ImgMini from '../assets/Rectangle 43.svg';
+import ImgPc from '../assets/Rectangle40.svg';
+import ImgMini from '../assets/Rectangle43.svg';
 import Titles from './Titles.jsx';
 import Size from './Size.jsx';
 const InfoHome = () => {

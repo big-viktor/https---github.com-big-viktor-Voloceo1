@@ -1,10 +1,8 @@
-import { useTranslation } from 'react-i18next';
 import '../i18next';
 import styles from './styles/blocInfo.module.css';
 import CardContact from './CardContact.jsx';
 
 function BlocInfo() {
-	const { t } = useTranslation();
 	const paramCard = {
 		routerLink1: {
 			title: 'cardTitleContact',
