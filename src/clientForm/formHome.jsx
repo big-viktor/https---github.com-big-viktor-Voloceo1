@@ -14,7 +14,7 @@ const FormHome = () => {
 
 	const sendMail = () => {
 		axios
-			.get('http://localhost:1000/', {
+			.get(' http://172.20.10.2:3000', {
 				params: {
 					email: 'svitlik.viktor78@gmail.com',
 					subject: 'FormHome',
