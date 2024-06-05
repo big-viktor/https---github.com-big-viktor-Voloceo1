@@ -16,7 +16,6 @@ import Footer from '../components/Footer.jsx';
 function Home() {
 	return (
 		<>
-			<Header />
 			<TitleHome />
 			<Signboard />
 			<CardBlock />
