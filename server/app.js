@@ -93,5 +93,4 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`nodemailerProject is listening at http://localhost:${port}`);
 });
