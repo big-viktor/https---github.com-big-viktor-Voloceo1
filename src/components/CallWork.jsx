@@ -3,7 +3,6 @@ import styles from './styles/callWork.module.css';
 import Titles from './Titles.jsx';
 import { useTranslation } from 'react-i18next';
 
-// eslint-disable-next-line react/prop-types
 const CallWork = ({ sendUrl }) => {
 	const { t } = useTranslation();
 	return (
