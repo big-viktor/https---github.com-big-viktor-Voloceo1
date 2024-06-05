@@ -2,7 +2,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const app = express();
-const port = "volceo0-1-bjmg8relo-nextestwork.vercel.app/";
+const port = "volceo0-1.vercel.app/";
 
 app.use(cors());
 app.use(express.json({ limit: "25mb" }));
@@ -93,5 +93,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`nodemailerProject is listening at http://${port}`);
+  console.log(`nodemailerProject is listening at https://${port}`);
 });
