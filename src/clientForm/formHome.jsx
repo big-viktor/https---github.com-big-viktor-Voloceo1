@@ -14,7 +14,7 @@ const FormHome = () => {
 
 	const sendMail = () => {
 		axios
-			.get(' http://localhost:1000', {
+			.get('https://volceo0-1-git-main-nextestwork.vercel.app/', {
 				params: {
 					email: 'svitlik.viktor78@gmail.com',
 					subject: 'FormHome',
