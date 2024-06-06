@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout1';
+import Header from '../components/layout1';
 
 import '../i18next';
 import Footer from '../components/footer';
@@ -34,7 +34,7 @@ function AboutUs() {
 	};
 	return (
 		<>
-			<Layout />
+			<Header />
 			<BlocOnas />
 			<BlocInfoOnas />
 			<BlocNumber />

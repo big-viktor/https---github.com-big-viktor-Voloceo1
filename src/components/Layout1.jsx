@@ -6,7 +6,7 @@ import '../../src/index.css';
 import MenuLang from './menuLang.jsx';
 import { useState } from 'react';
 import Logo from './logo.jsx';
-const Layout = () => {
+const Header = () => {
 	const { t } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -78,4 +78,4 @@ const Layout = () => {
 	);
 };
 
-export default Layout;
+export default Header;

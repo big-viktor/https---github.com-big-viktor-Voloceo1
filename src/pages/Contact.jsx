@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/layout1';
+import Header from '../components/layout1';
 
 import '../i18next';
 import Footer from '../components/footer';
@@ -30,7 +30,7 @@ function Contact() {
 	};
 	return (
 		<>
-			<Layout />
+			<Header />
 			<BlocFormContact />
 			<BlocInfo />
 			<Footer />
