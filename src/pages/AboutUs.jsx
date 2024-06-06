@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/layout1';
+import Header from '../components/layout1.jsx';
 
 import '../i18next';
 import Footer from '../components/footer';
