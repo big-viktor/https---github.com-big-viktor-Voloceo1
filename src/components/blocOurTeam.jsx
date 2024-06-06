@@ -2,8 +2,8 @@ import styles from './styles/ourTeam.module.css';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
-import Size from './size';
-import Titles from './titles';
+import Size from './size.jsx';
+import Titles from './titles.jsx';
 const BlocOurTeam = () => {
 	const { t } = useTranslation();
 	const screenSize = Size();

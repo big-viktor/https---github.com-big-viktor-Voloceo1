@@ -2,17 +2,17 @@ import React from 'react';
 import Header from '../components/layout1.jsx';
 
 import '../i18next';
-import Footer from '../components/footer';
-import CardBlock from '../components/blokCard';
-import Card from '../components/bard';
+import Footer from '../components/footer.jsx';
+import CardBlock from '../components/blokCard.jsx';
+import Card from '../components/card.jsx';
 
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
 import BlocOnas from '../components/blocOnas';
-import BlocInfoOnas from '../components/blocInfoOnas';
-import BlocNumber from '../components/numberBloc';
-import BlocOurTeam from '../components/blocOurTeam';
+import BlocInfoOnas from '../components/blocInfoOnas.jsx';
+import BlocNumber from '../components/numberBloc.jsx';
+import BlocOurTeam from '../components/blocOurTeam.jsx';
 
 function AboutUs() {
 	const paramCard = {

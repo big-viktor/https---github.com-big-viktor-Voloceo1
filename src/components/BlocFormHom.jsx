@@ -1,9 +1,9 @@
 import styles from './styles/blokForma.module.css';
 import '../i18next';
-import Titles from './titles';
-import TextTitle from './textTitle';
-import FormHome from '../clientForm/formHome';
-import BacgCard from './bacgCard';
+import Titles from './titles.jsx';
+import TextTitle from './textTitle.jsx';
+import FormHome from '../clientForm/formHome.jsx';
+import BacgCard from './bacgCard.jsx';
 import ImgB from '../assets/Rectangle24.svg';
 // eslint-disable-next-line react/prop-types
 const BlocFormHom = () => {

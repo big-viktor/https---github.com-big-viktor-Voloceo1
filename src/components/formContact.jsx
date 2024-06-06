@@ -3,7 +3,7 @@ import '../i18next';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 // import Size from './size';
-import FormHome from '../clientForm/formHome';
+import FormHome from '../clientForm/formHome.jsx';
 const BlocFormContact = () => {
 	const { t } = useTranslation();
 	// const screenSize = Size();

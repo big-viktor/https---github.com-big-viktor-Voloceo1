@@ -2,13 +2,13 @@ import React from 'react';
 import Header from '../components/layout1.jsx';
 
 import '../i18next';
-import Footer from '../components/footer';
+import Footer from '../components/footer.jsx';
 
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
-import BlocFormContact from '../components/formContact';
-import BlocInfo from '../components/blocInfo';
+import BlocFormContact from '../components/formContact.jsx';
+import BlocInfo from '../components/blocInfo.jsx';
 
 function Contact() {
 	const paramCard = {

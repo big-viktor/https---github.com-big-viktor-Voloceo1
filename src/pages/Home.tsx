@@ -15,7 +15,7 @@ import Footer from '../components/footer.jsx';
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
-import Card from '../components/bard.jsx';
+import Card from '../components/card.jsx';
 
 const Home = () => {
 	const paramCard = {
