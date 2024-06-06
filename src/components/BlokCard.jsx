@@ -1,28 +1,7 @@
 import styles from './styles/cardBloc.module.css';
-import Titles from './Titles.jsx';
-import Card from './Card.jsx';
-import ImgOne from '../assets/Frame 75.svg';
-import ImgTwo from '../assets/Frame 76.svg';
-import ImgThre from '../assets/Frame 77.svg';
+import Titles from './titles.jsx';
 
-const CardBlock = () => {
-	const paramCard = {
-		routerLink1: {
-			name: 'cardTitleOne',
-			infoText: 'cardTextOne',
-			foto: ImgOne,
-		},
-		routerLink2: {
-			name: 'cardTitleTwo',
-			infoText: 'cardTextTwo',
-			foto: ImgTwo,
-		},
-		routerLink3: {
-			name: 'cardTitleThre',
-			infoText: 'cardTextThre',
-			foto: ImgThre,
-		},
-	};
+const CardBlock = ({ children }) => {
 	return (
 		<div className={styles['container_content2']}>
 			<div className={styles['container']}>
@@ -33,16 +12,7 @@ const CardBlock = () => {
 					<div className={styles['container_title_n1']}>
 						<Titles title={'cardBlockTitle'} />
 					</div>
-					{Object.entries(paramCard).map(([key, value]) => (
-						<>
-							<Card
-								key={key}
-								img={value.foto}
-								title={value.name}
-								text={value.infoText}
-							/>
-						</>
-					))}
+					{children}
 				</div>
 			</div>
 		</div>

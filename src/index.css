@@ -38,6 +38,11 @@ body {
 
 	src: url('./fonts/montserrat/static/Montserrat-Bold.ttf');
 }
+@font-face {
+	font-family: 'fontRegular';
+
+	src: url('./fonts/montserrat/static/Montserrat-Regular.ttf');
+}
 ul {
 	list-style: none;
 }
@@ -63,4 +68,7 @@ p {
 }
 .closed {
 	display: none;
+}
+div {
+	transition: 1s;
 }

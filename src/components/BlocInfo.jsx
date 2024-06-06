@@ -1,6 +1,6 @@
-import '../i18next';
+import '../i18next.js';
 import styles from './styles/blocInfo.module.css';
-import CardContact from './CardContact.jsx';
+import CardContact from './bardContact.jsx';
 
 function BlocInfo() {
 	const paramCard = {

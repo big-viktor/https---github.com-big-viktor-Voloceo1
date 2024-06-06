@@ -1,6 +1,6 @@
 .title_text {
 	color: #1a1a1a;
-	font-size: 3vw;
+	font-size: 60px;
 	font-style: normal;
 	font-family: 'fontBold';
 	font-weight: 700;
@@ -19,7 +19,8 @@
 }
 .title_span {
 	color: #73ce04;
-	font-size: 3vw;
+	font-size: 60px;
+
 	font-style: normal;
 	font-family: 'fontMon';
 	font-weight: 700;
@@ -29,7 +30,8 @@
 }
 .title_text2 {
 	color: #000;
-	font-size: 3vw;
+	font-size: 60px;
+
 	font-style: normal;
 	font-family: 'fontMedium';
 	font-weight: 500;
@@ -43,15 +45,6 @@
 	}
 }
 @media (max-width: 1600px) {
-	.title_text2 {
-		font-size: 2.5vw;
-	}
-	.title_text {
-		font-size: 2.5vw;
-	}
-	.title_span {
-		font-size: 2.5vw;
-	}
 	.container_title {
 		margin-right: 90px;
 	}
@@ -68,6 +61,20 @@
 	}
 	.title_span {
 		line-height: 52px;
+	}
+}
+@media (max-width: 1632px) {
+	.title_text2 {
+		line-height: 52px;
+		font-size: 40px;
+	}
+	.title_text {
+		line-height: 52px;
+		font-size: 40px;
+	}
+	.title_span {
+		line-height: 52px;
+		font-size: 40px;
 	}
 }
 @media (max-width: 970px) {

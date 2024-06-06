@@ -1,9 +1,13 @@
+.content_mod {
+	margin: 0 auto;
+	border-bottom: 1px solid #e0e0e0;
+}
 .container_layout {
 	/* width: 100%; */
 	height: auto;
 	margin: 0;
 	display: block;
-	border-bottom: 1px solid #e0e0e0;
+
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -27,12 +31,17 @@
 
 .link_name a {
 	color: #1a1a1a;
-	font-size: 1.1vw;
+	font-size: 20px;
 	font-style: normal;
 	font-family: 'fontMon';
 	font-weight: 400;
 	line-height: 30px;
 	letter-spacing: 0;
+}
+@media (max-width: 1600px) {
+	.container_layout {
+		padding: 0 46px 0 90px;
+	}
 }
 
 @media (max-width: 1440px) {
@@ -153,7 +162,7 @@
 }
 @media (max-width: 900px) {
 	.link_name a {
-		font-size: 2.8vw;
+		font-size: 20px;
 		line-height: 42px;
 		display: block;
 		width: 100%;

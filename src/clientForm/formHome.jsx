@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import styles from './style/form.module.css';
-import Button from '../components/Button.jsx';
+import Button from '../components/button.jsx';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 

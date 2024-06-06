@@ -1,9 +1,9 @@
-import '../i18next';
+import '../i18next.js';
 import styles from './styles/footer.module.css';
 import '../../src/index.css';
-import Navigation from './Navigation.jsx';
-import SocialImg from './SocialImg.jsx';
-import Logo from './Logo.jsx';
+import Navigation from './navigation.jsx';
+import SocialImg from './socialImg.jsx';
+import Logo from './logo.jsx';
 import FB from '../assets/Social Media/fb .svg';
 import TL from '../assets/Social Media/Telegram.svg';
 import Ins from '../assets/Social Media/instagram.svg';

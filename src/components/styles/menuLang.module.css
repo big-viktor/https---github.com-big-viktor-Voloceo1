@@ -26,9 +26,9 @@
 }
 .name_switch {
 	color: #1a1a1a;
-	font-size: 1.2vw;
+	font-size: 22px;
 	font-style: normal;
-	font-family: 'fontMon';
+	font-family: 'fontBold';
 	font-weight: 700;
 	line-height: 33px;
 	letter-spacing: 0;
@@ -98,7 +98,7 @@
 }
 @media (max-width: 900px) {
 	.name_switch {
-		font-size: 2.9vw;
+		font-size: 24px;
 	}
 	.content_down {
 		margin-left: 0px;

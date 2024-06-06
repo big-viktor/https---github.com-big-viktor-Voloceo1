@@ -1,0 +1,137 @@
+.wrap {
+	background-color: #1a1a1a;
+	padding: 92px 0px 0px 0px;
+	margin: 61px 0px 0px 0px;
+	width: 100%;
+}
+.container {
+	max-width: 1451px;
+	border-radius: 5px 0px 0px 0px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.content {
+}
+.title {
+	font-family: 'SemiBold';
+	color: #fff;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 41px;
+	letter-spacing: 0;
+	text-transform: none;
+	padding-bottom: 80px;
+}
+.blocInfoTextOne {
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 40px;
+	letter-spacing: 0;
+	text-transform: none;
+	padding-bottom: 71px;
+}
+.blocInfoTextTwo {
+	font-size: 22px;
+	font-style: normal;
+	font-family: 'fontRegular', sans-serif;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 0;
+	text-transform: none;
+	color: #ffffffcc;
+	margin-bottom: 40px;
+}
+.container_text {
+	display: flex;
+	flex-direction: column;
+	padding-top: 118px;
+	margin-left: 20px;
+}
+.closed {
+	display: none;
+}
+.line {
+	display: block;
+}
+.content_btn {
+	max-width: 294px;
+	margin-top: 123px;
+}
+@media (max-width: 1500px) {
+	.container {
+		max-width: 100%;
+		border-radius: 5px 0px 0px 0px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		padding: 0px 90px 0px 90px;
+	}
+}
+@media (min-width: 1925px) {
+	.container {
+		max-width: 100%;
+		border-radius: 5px 0px 0px 0px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		padding: 0px 90px 0px 90px;
+	}
+}
+@media (max-width: 1400px) {
+	.container {
+		max-width: 100%;
+		border-radius: 5px 0px 0px 0px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		padding: 0px 45px 0px 45px;
+	}
+	.container_text {
+		display: flex;
+		flex-direction: column;
+		padding-top: 118px;
+		margin-left: 10px;
+	}
+}
+@media (max-width: 900px) {
+	.container {
+		max-width: 100%;
+		border-radius: 5px 0px 0px 0px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		padding: 0px 45px 0px 45px;
+	}
+	.content_btn {
+		margin: 0px 0px 40px 0px;
+	}
+	.container_text {
+		display: flex;
+		flex-direction: column;
+		padding-top: 13px;
+		margin-left: 0px;
+	}
+	.title {
+	}
+	.blocInfoTextOne {
+		font-size: 30px;
+	}
+	.blocInfoTextTwo {
+		font-size: 30px;
+	}
+}
+@media (max-width: 600px) {
+	.title {
+	}
+	.blocInfoTextOne {
+		font-size: 18px;
+	}
+	.blocInfoTextTwo {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,93 @@
+.wrap {
+	background: no-repeat url('../../assets/Rectangle41.svg');
+	width: 100%;
+	margin: 128px 0px;
+	background-size: auto;
+}
+.content {
+	padding: 89px 0px 99px 243px;
+	max-width: 912px;
+}
+.title {
+}
+.text1 {
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 40px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	margin-top: 26px;
+}
+.text2 {
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: left;
+	font-family: 'fontMedium', sans-serif;
+	font-weight: 500;
+	line-height: 40px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+	text-transform: none;
+}
+@media (min-width: 1925px) {
+	.wrap {
+		width: 100%;
+		margin: 128px 0px;
+		background-size: 100%;
+		height: auto;
+		background-position-y: center;
+	}
+	.content {
+		padding: 208px 0px 199px 243px;
+		max-width: 50%;
+		height: auto;
+	}
+}
+@media (max-width: 1300px) {
+	.wrap {
+		background: no-repeat url('../../assets/Rectangle41Ipad.svg');
+	}
+	.content {
+		padding: 40px 0px 160px 40px;
+		max-width: 912px;
+	}
+}
+
+@media (max-width: 900px) {
+	.content {
+		padding: 20px 20px 20px 20px;
+		max-width: 912px;
+	}
+	.text2 {
+		font-size: 18px;
+		line-height: 32px;
+	}
+}
+@media (max-width: 665px) {
+	.text2 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+	.text1 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+	.title {
+		font-size: 30px;
+		line-height: 41px;
+	}
+}
+@media (max-width: 665px) {
+	.wrap {
+		background: no-repeat url('../../assets/Rectangle42mini.png');
+		background-size: 100%;
+	}
+}

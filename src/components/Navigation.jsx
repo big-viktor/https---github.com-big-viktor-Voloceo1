@@ -15,7 +15,7 @@ const Navigation = () => {
 						<Link to='/'>{t('link')}</Link>
 					</li>
 					<li className={styles.link_name}>
-						<Link to='/protected'>{t('link2')}</Link>
+						<Link to='/AboutUs'>{t('link2')}</Link>
 					</li>
 					<li className={styles.link_name}>
 						<Link to='/protected'>{t('link3')}</Link>
@@ -24,7 +24,7 @@ const Navigation = () => {
 						<Link to='/protected'>{t('link4')}</Link>
 					</li>
 					<li className={styles.link_name}>
-						<Link to='/protected'>{t('link5')}</Link>
+						<Link to='/Contact'>{t('link5')}</Link>
 					</li>
 					<li className={styles.link_name}>
 						<Link to='/protected'>{t('link6')}</Link>

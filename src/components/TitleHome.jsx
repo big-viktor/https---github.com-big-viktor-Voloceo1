@@ -1,7 +1,7 @@
 import styles from './styles/titleHom.module.css';
 import { useTranslation } from 'react-i18next';
-import Title from './Title';
-import PictureBackground from './PictureBackground.jsx';
+import Title from './title.jsx';
+import PictureBackground from './pictureBackground.jsx';
 
 const TitleHome = () => {
 	const { t } = useTranslation();

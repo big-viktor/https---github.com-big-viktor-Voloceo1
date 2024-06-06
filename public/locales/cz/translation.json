@@ -7,9 +7,11 @@
         "link4":"Pro Firmy",
         "link5":"Kontakt",
         "link6":"Zpracování osobních údajů",
+
         "titleHom1":"Rozšiřte své podnikání s personální agenturou",
         "titleHom2":"Veloceo®",
         "titleHom3":"Budujeme silné partnerství s firmami pro vzájemný růst a úspěch po celé České republice!",
+        
     "selecteLang":"CZ",
     
     "signboardText1":"Máme Více Než 15 Let Zkušeností Se Zaměstnáváním A Poskytováním Služeb V Oblasti Dočasného Přidělení.",
@@ -80,7 +82,33 @@
 
     "socialHrefFaiv":"https://invite.viber.com/?g2=AQBvpuZO%2BhUNA1LbLiAJjPZJOLComMiuQL3MPAcuvkN0v1z0TwO5UgnshfBo1502",
 
-    "socialHrefSix":"https://www.youtube.com/@Veloceo"
+    "socialHrefSix":"https://www.youtube.com/@Veloceo",
 
+    "OnasTitle":"O Nás",
+    "OnasText":" Personální agentura s týmem, který má více než 15 let zkušeností v náboru zaměstnanců v České republice",
+    
+    "blocInfoTitle":"Kdo jsme?",
+    "blocInfoTextOne":"Vše začalo někdy v dalekém roce 2006. Byly jsme tehdy parta, která viděla problém v sektoru agenturního zaměstnání. Bylo obtížné najít spolehlivou agenturu, která by se pečlivé postarala o zaměstnance a zároveň byla spolehlivým partnerem pro firmy. Podobných firem bylo málo, to, co jsme my chtěly, chybělo na trhu: zaměstnavatel, který ví, co to znamená tvrdá práce, a spolehlivý partner pro firmy.",
+    "blocInfoTextTwo":"Proto jsme se rozhodly začít v tomto oboru. Věděly jsme, že kvalita našich služeb bude nejlepší reklamou, a soustředily jsme se na ni. Čas ukázal, že jsme nezklamaly sebe ani naše partnery ani zaměstnance. Snažily jsme se změnit styl těchto agentur a podařilo se nám to.",
+    "blocInfoTextThre":"Postupem času jsme pomalu, ale jistě, začaly rozšiřovat naše působení. Spolupráce s farmami v Pelhřimově a Humpolci nám umožnila posílit naše postavení na trhu. Brzy jsme zahájily spolupráci i v Jihlavě a postupně jsme expandovaly do dalších měst, jako je Chrudim a Hlinsko, poté do okresu Havlíčkův Brod, Zlín a okresu Bruntál a nakonec i do Uherského Hradiště, Třebíče, Uherského Brodu a mnoha dalších.",
+    "blocInfoTextFoo":"Dnes už málokdy potřebujeme reklamu na nábor pracovníků. Lidé sami doporučují nás a předávají naše kontakty. Jsme hrdí na to, že nás naši spokojení partneři, včetně těch současných i těch, s nimiž jsme spolupracovali v minulosti, a naši zaměstnanci nás podporují a doporučují. Naše snahy o rozšíření podnikání jsou neustále v plném proudu, přičemž se držíme zásad lidského přístupu a slušného chování.",
+    "blocInfoTextThreFive":"Jsme připraveni pokračovat v našem úsilí o kvalitu a spokojenost našich klientů a zaměstnanců. Jsme tým, na který se můžete spolehnout.",
+    "btnInfoTitle":"Kontaktovat Veloceo",
+
+    "numberBloc":"15+",
+    "textBloc":"Více než 15 let zkušeností v oblasti dočasného přidělen",
+    "numberBloc2":"25+",
+    "textBloc2":"Desítky spokojených firem. Naše služby pomohly firmám rozšířit jejich týmy a dosáhnout nových úspěchů.",
+    "numberBloc3":"250+",
+    "textBloc3":"Aktuálně přidělujeme práci více než 250 zaměstnancům.",
+    "numberBloc4":"1000+",
+    "textBloc4":"Máme databázi tisíců kandidátů, z které vybíráme vhodné uchazeče.",
+    "numberBloc5":"2000+",
+    "textBloc5":"Za celou dobu jsme pomohli více než 2000 lidem najít práci.",
+
+    "ourTeamTitle":"Náš tým",
+    "ourTeamText":"Naše síla spočívá v našem týmu. Jsme odborníci na nábor, kteří se dokonale orientují v oboru. Vždy přizpůsobujeme výběr zaměstnance vašim individuálním potřebám v oblasti lidských zdrojů, profesních požadavků.",
+    "ourTeamText2":"Věříme v důležitost práce v životě každého jednotlivce. Rozumíme, že každý člověk má individuální potřeby, které se mohou měnit a vyvíjet. Naše mise spočívá v propojení těch správných lidí, kteří se dokonale doplňují - hledáme talenty pro firmy a firmy pro talenty. Dosazení správného člověka na správné místo je základem našeho úsilí. Tato práce nás naplňuje a dává smysl, protože pozitivně ovlivňuje životy našich klientů i kandidátů."
+    
 }
   

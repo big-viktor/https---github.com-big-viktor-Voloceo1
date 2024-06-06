@@ -1,7 +1,9 @@
 import React from 'react';
 import { createBrowserRouter, Outlet } from 'react-router-dom';
 import Home from '../pages/Home.tsx';
-import ProtectedPage from '../pages/ProtectedPage';
+
+import AboutUs from '../pages/AboutUs.jsx';
+import Contact from '../pages/Contact.jsx';
 
 export const routesList = createBrowserRouter([
 	{
@@ -13,8 +15,12 @@ export const routesList = createBrowserRouter([
 				element: <Home />,
 			},
 			{
-				path: 'protected',
-				element: <ProtectedPage />,
+				path: 'AboutUs',
+				element: <AboutUs />,
+			},
+			{
+				path: 'Contact',
+				element: <Contact />,
 			},
 		],
 	},

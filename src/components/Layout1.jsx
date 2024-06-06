@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import '../i18next';
+import '../i18next.js';
 import { useTranslation } from 'react-i18next';
 import styles from './styles/layout.module.css';
 import '../../src/index.css';
-import MenuLang from './MenuLang';
+import MenuLang from './menuLang.jsx';
 import { useState } from 'react';
-import Logo from './Logo.jsx';
+import Logo from './logo.jsx';
 const Layout = () => {
 	const { t } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);
@@ -21,24 +21,32 @@ const Layout = () => {
 								<Link to='/'>{t('link')}</Link>
 							</li>
 							<li className={styles.link_name}>
-								<Link to='/protected'>{t('link2')}</Link>
-							</li>
-							<li className={styles.link_name}>
-								<Link to='/protected'>{t('link3')}</Link>
+								<Link to='/AboutUs'>{t('link2')}</Link>
 							</li>
 							<li className={styles.link_name}>
 								<Link to='/protected'>{t('link4')}</Link>
 							</li>
 							<li className={styles.link_name}>
-								<Link to='/protected'>{t('link5')}</Link>
+								<Link to='/protected'>{t('link3')}</Link>
+							</li>
+
+							<li className={styles.link_name}>
+								<Link to='/Contact'>{t('link5')}</Link>
 							</li>
 						</ul>
-						<div className={styles.container_line} onClick={() => setIsOpen(!isOpen)}>
+						<div
+							className={styles.container_line}
+							onClick={() => setIsOpen(!isOpen)}
+						>
 							<div className={isOpen ? styles.closed : styles.line}></div>
 							<div className={isOpen ? styles.closed : styles.line2}></div>
 							<div className={isOpen ? styles.closed : styles.line3}></div>
-							<div className={isOpen ? styles.line_closed : styles.closed}></div>
-							<div className={isOpen ? styles.line_closed_two : styles.closed}></div>
+							<div
+								className={isOpen ? styles.line_closed : styles.closed}
+							></div>
+							<div
+								className={isOpen ? styles.line_closed_two : styles.closed}
+							></div>
 							<div></div>
 						</div>
 						<div className={isOpen ? styles.active_open : styles.active_closed}>
@@ -50,11 +58,12 @@ const Layout = () => {
 									<Link to='/protected'>{t('link2')}</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/protected'>{t('link3')}</Link>
-								</li>
-								<li className={styles.link_name}>
 									<Link to='/protected'>{t('link4')}</Link>
 								</li>
+								<li className={styles.link_name}>
+									<Link to='/protected'>{t('link3')}</Link>
+								</li>
+
 								<li className={styles.link_name}>
 									<Link to='/protected'>{t('link5')}</Link>
 								</li>
