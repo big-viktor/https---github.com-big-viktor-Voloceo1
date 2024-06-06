@@ -30,18 +30,7 @@ const BlocContact = () => {
 	};
 	return (
 		<>
-			<div className={styles['wrap']}>
-				<div className={styles['container']}>
-					{Object.entries(paramContainer).map(([key, value], i) => (
-						<>
-							<div key={key} className={styles['content']}>
-								<div className={styles['number']}> {t([value.number])}</div>
-								<div className={styles['text']}>{t([value.text])}</div>
-							</div>
-						</>
-					))}
-				</div>
-			</div>
+			<div className={styles['wrap']}></div>
 		</>
 	);
 };
