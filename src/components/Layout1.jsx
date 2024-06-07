@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import styles from './styles/layout.module.css';
 import '../../src/index.css';
-import MenuLang from './menuLang.jsx';
+import MenuLang from './MenuLang.jsx';
 import { useState } from 'react';
 import Logo from './logo.jsx';
 const Header = () => {
