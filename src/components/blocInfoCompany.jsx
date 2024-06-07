@@ -19,11 +19,6 @@ const BlocInfoCompany = () => {
 							{t('textCompaniInfo')}
 						</div>
 					</div>
-					<div className={screenSize.width > 900 ? styles.closed : styles.line}>
-						<div className={styles['content_btn']}>
-							<Button name={'btnInfoTitle'} />
-						</div>
-					</div>
 				</div>
 			</div>
 		</>
