@@ -10,7 +10,7 @@ import ServicesBloc from '../components/servicesBloc.jsx';
 import '../i18next';
 import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
-import BlocInfo from '../components/blocInfo.jsx';
+import BlocInfo from '../components/BlocInfo.jsx';
 import Footer from '../components/Footer.jsx';
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';

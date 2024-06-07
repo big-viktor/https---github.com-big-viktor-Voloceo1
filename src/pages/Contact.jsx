@@ -8,7 +8,7 @@ import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
 import BlocFormContact from '../components/formContact.jsx';
-import BlocInfo from '../components/blocInfo.jsx';
+import BlocInfo from '../components/BlocInfo.jsx';
 
 function Contact() {
 	const paramCard = {
