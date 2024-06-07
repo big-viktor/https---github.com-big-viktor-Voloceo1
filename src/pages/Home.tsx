@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Layout1.jsx';
 import TitleHome from '../components/TitleHome.jsx';
 import SignBoard from '../components/Signboard.jsx';
-import CardBlock from '../components/blokCard.jsx';
+import CardBlock from '../components/BlokCard.jsx';
 import InfoHome from '../components/infoHome.jsx';
 import CallWork from '../components/BallWork.jsx';
 import ImgWork from '../assets/Rectangle14.svg';
