@@ -1,7 +1,7 @@
 import styles from './styles/servicesBloc.module.css';
 // import Card from './Card.jsx';
 import Titles from './Titles.jsx';
-import CardImg from './cardImg.jsx';
+import CardImg from './CardImg.jsx';
 import ImgOne from '../assets/Rectangle 18.svg';
 import ImgTwo from '../assets/Rectangle 20.svg';
 import ImgThre from '../assets/Rectangle 22.svg';
