@@ -1,5 +1,5 @@
 import styles from './styles/cardBloc.module.css';
-import Titles from './titles.jsx';
+import Titles from './titles';
 
 const CardBlock = ({ children }) => {
 	return (
