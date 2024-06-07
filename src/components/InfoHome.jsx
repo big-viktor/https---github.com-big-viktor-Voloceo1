@@ -1,6 +1,6 @@
 import styles from './styles/infoHome.module.css';
 import { useTranslation } from 'react-i18next';
-import BacgCard from './bacgCard.jsx';
+import BacgCard from './BacgCard.jsx';
 import ImgPc from '../assets/Rectangle40.svg';
 import ImgMini from '../assets/Rectangle43.svg';
 import Titles from './titles.jsx';
