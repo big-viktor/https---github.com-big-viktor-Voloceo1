@@ -3,7 +3,7 @@ import Header from '../components/Layout1.jsx';
 
 import '../i18next';
 import Footer from '../components/footer.jsx';
-import CardBlock from '../components/blokCard.jsx';
+import CardBlock from '../components/BlokCard.jsx';
 import Card from '../components/card.jsx';
 
 import ImgOne from '../assets/Frame75.svg';
