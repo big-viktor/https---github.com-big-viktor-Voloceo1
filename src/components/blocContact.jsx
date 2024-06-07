@@ -1,5 +1,5 @@
 import styles from './styles/numberBloc.module.css';
-import '../i18next';
+import '../i18next.js';
 import { useTranslation } from 'react-i18next';
 import Size from './size.jsx';
 const BlocContact = () => {
