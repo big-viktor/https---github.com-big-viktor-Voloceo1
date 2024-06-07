@@ -67,3 +67,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify# https---github.com-big-viktor-Voloceo1-
 # big-viktor-https---github.com-big-viktor-Voloceo1
+# Veloceo2
