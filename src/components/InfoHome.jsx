@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import BacgCard from './BacgCard.jsx';
 import ImgPc from '../assets/Rectangle40.svg';
 import ImgMini from '../assets/Rectangle43.svg';
-import Titles from './titles.jsx';
+import Titles from './Titles.jsx';
 import Size from './size.jsx';
 const InfoHome = () => {
 	const screenSize = Size();

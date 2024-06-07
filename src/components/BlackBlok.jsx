@@ -1,5 +1,5 @@
 import styles from './styles/blackBloc.module.css';
-import Titles from './titles.jsx';
+import Titles from './Titles.jsx';
 import { useTranslation } from 'react-i18next';
 // import Card from './Card.jsx';
 // import ImgThre from '../assets/Frame 77.svg';

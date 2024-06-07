@@ -1,6 +1,6 @@
 import styles from './styles/callWork.module.css';
 // import Card from './Card.jsx';
-import Titles from './titles.jsx';
+import Titles from './Titles.jsx';
 import { useTranslation } from 'react-i18next';
 
 const CallWork = ({ sendUrl }) => {
