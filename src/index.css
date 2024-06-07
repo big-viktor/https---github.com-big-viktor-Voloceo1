@@ -72,3 +72,6 @@ p {
 div {
 	transition: 1s;
 }
+.margin {
+	margin: 130px 0px 130px 0px;
+}

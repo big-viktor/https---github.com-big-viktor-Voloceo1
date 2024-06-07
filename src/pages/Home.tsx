@@ -62,7 +62,9 @@ const Home = () => {
 				showBtn={true}
 			/>
 			<BlocFormHom />
-			<BlocInfo />
+			<div className='margin'>
+				<BlocInfo />
+			</div>
 			<Footer />
 		</>
 	);

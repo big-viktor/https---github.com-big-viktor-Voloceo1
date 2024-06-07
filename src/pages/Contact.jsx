@@ -9,6 +9,7 @@ import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
 import BlocFormContact from '../components/formContact.jsx';
 import BlocInfo from '../components/BlocInfo.jsx';
+import BlocInfoСompani from '../components/blocInfoСompani.jsx';
 
 function Contact() {
 	const paramCard = {
@@ -33,6 +34,7 @@ function Contact() {
 			<Header />
 			<BlocFormContact />
 			<BlocInfo />
+			<BlocInfoСompani />
 			<Footer />
 		</>
 	);

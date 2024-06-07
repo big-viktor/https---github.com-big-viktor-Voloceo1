@@ -39,18 +39,21 @@ function AboutUs() {
 			<BlocInfoOnas />
 			<BlocNumber />
 			<BlocOurTeam />
-			<CardBlock>
-				{Object.entries(paramCard).map(([key, value], i) => (
-					<>
-						<Card
-							key={key}
-							img={value.foto}
-							title={value.name}
-							text={value.infoText}
-						/>
-					</>
-				))}
-			</CardBlock>
+
+			<div className='margin'>
+				<CardBlock>
+					{Object.entries(paramCard).map(([key, value], i) => (
+						<>
+							<Card
+								key={key}
+								img={value.foto}
+								title={value.name}
+								text={value.infoText}
+							/>
+						</>
+					))}
+				</CardBlock>
+			</div>
 			<Footer />
 		</>
 	);

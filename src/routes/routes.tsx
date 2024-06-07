@@ -4,6 +4,7 @@ import Home from '../pages/Home.tsx';
 
 import AboutUs from '../pages/AboutUs.jsx';
 import Contact from '../pages/Contact.jsx';
+import FormCopmanie from '../pages/ForCompanie.jsx';
 
 export const routesList = createBrowserRouter([
 	{
@@ -21,6 +22,10 @@ export const routesList = createBrowserRouter([
 			{
 				path: 'Contact',
 				element: <Contact />,
+			},
+			{
+				path: 'FormCopmanie',
+				element: <FormCopmanie />,
 			},
 		],
 	},
