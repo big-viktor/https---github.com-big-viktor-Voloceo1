@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/layout1.jsx';
+import Header from '../components/Layout1.jsx';
 import TitleHome from '../components/titleHome.jsx';
 import SignBoard from '../components/signboard.jsx';
 import CardBlock from '../components/blokCard.jsx';

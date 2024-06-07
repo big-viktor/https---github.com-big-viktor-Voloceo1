@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import '../i18next.js';
 import { useTranslation } from 'react-i18next';
 import styles from './styles/layout.module.css';
 import '../../src/index.css';
