@@ -1,7 +1,7 @@
 import styles from './styles/blokForma.module.css';
 import '../i18next.js';
 import Titles from './Titles.jsx';
-import TextTitle from './textTitle.jsx';
+import TextTitle from './TextTitle.jsx';
 import FormHome from '../clientForm/formHome.jsx';
 import BacgCard from './BacgCard.jsx';
 import ImgB from '../assets/Rectangle24.svg';
