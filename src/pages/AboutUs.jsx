@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Layout1.jsx';
 
 import '../i18next';
-import Footer from '../components/footer.jsx';
+import Footer from '../components/Footer.jsx';
 import CardBlock from '../components/BlokCard.jsx';
 import Card from '../components/card.jsx';
 

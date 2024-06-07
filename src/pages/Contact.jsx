@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Layout1.jsx';
 
 import '../i18next';
-import Footer from '../components/footer.jsx';
+import Footer from '../components/Footer.jsx';
 
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';

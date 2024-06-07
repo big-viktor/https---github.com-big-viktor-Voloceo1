@@ -11,7 +11,7 @@ import '../i18next';
 import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
 import BlocInfo from '../components/blocInfo.jsx';
-import Footer from '../components/footer.jsx';
+import Footer from '../components/Footer.jsx';
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
