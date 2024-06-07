@@ -39,7 +39,6 @@ function AboutUs() {
 			<BlocInfoOnas />
 			<BlocNumber />
 			<BlocOurTeam />
-
 			<div className='margin'>
 				<CardBlock>
 					{Object.entries(paramCard).map(([key, value], i) => (

@@ -61,7 +61,7 @@ const Home = () => {
 				btnName={'btnName'}
 				showBtn={true}
 			/>
-			<BlocFormHom />
+			<BlocFormHom text={'formTextHome'} title={'formTitleHom'} />
 			<div className='margin'>
 				<BlocInfo />
 			</div>

@@ -5,12 +5,15 @@ import '../i18next';
 import Footer from '../components/Footer.jsx';
 
 import BlocFormHom from '../components/BlocFormHom.jsx';
+import BlocInfoCompany from '../components/blocInfoCompany.jsx';
 
 function FormCopmanie() {
 	return (
 		<>
 			<Header />
-			<BlocFormHom />
+			<BlocInfoCompany />
+			<BlocFormHom text={'textFormCompani'} title={'titleFormCompani'} />
+			<div className='margin'></div>
 			<Footer />
 		</>
 	);

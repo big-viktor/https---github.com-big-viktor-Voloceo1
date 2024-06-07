@@ -6,14 +6,15 @@ import FormHome from '../clientForm/formHome.jsx';
 import BacgCard from './BacgCard.jsx';
 import ImgB from '../assets/Rectangle24.svg';
 // eslint-disable-next-line react/prop-types
-const BlocFormHom = () => {
+const BlocFormHom = ({ title, text }) => {
 	return (
 		<>
 			<div className={styles['container_form']}>
 				<div className={styles['content_title']}>
-					<Titles title={'formTitleHom'} />
+					<Titles title={title} />
+
 					<div className={styles['content_text']}>
-						<TextTitle title={'formTextHome'} />
+						<TextTitle title={text} />
 					</div>
 				</div>
 				<div className={styles['content_bloc']}>
