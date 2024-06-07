@@ -3,7 +3,7 @@ import Header from '../components/Layout1.jsx';
 import TitleHome from '../components/TitleHome.jsx';
 import SignBoard from '../components/Signboard.jsx';
 import CardBlock from '../components/BlokCard.jsx';
-import InfoHome from '../components/infoHome.jsx';
+import InfoHome from '../components/InfoHome.jsx';
 import CallWork from '../components/BallWork.jsx';
 import ImgWork from '../assets/Rectangle14.svg';
 import ServicesBloc from '../components/servicesBloc.jsx';
