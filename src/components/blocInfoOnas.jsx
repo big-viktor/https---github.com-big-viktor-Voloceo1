@@ -3,7 +3,7 @@ import '../i18next';
 import { useTranslation } from 'react-i18next';
 
 import Button from './button.jsx';
-import Size from './size.jsx';
+import Size from './Size.jsx';
 const BlocInfoOnas = () => {
 	const { t } = useTranslation();
 	const screenSize = Size();

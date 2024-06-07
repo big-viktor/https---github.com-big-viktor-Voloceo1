@@ -4,7 +4,7 @@ import BacgCard from './BacgCard.jsx';
 import ImgPc from '../assets/Rectangle40.svg';
 import ImgMini from '../assets/Rectangle43.svg';
 import Titles from './Titles.jsx';
-import Size from './size.jsx';
+import Size from './Size.jsx';
 const InfoHome = () => {
 	const screenSize = Size();
 
