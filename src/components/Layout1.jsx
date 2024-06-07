@@ -4,7 +4,7 @@ import styles from './styles/layout.module.css';
 import '../../src/index.css';
 import MenuLang from './MenuLang.jsx';
 import { useState } from 'react';
-import Logo from './logo.jsx';
+import Logo from './Logo.jsx';
 const Header = () => {
 	const { t } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);

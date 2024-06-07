@@ -3,7 +3,7 @@ import styles from './styles/footer.module.css';
 import '../../src/index.css';
 import Navigation from './navigation.jsx';
 import SocialImg from './socialImg.jsx';
-import Logo from './logo.jsx';
+import Logo from './Logo.jsx';
 import FB from '../assets/Social Media/fb .svg';
 import TL from '../assets/Social Media/Telegram.svg';
 import Ins from '../assets/Social Media/instagram.svg';
