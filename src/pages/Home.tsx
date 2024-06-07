@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/layout1.jsx';
 import TitleHome from '../components/titleHome.jsx';
-import Signboard from '../components/signboard.jsx';
+import SignBoard from '../components/signboard.jsx';
 import CardBlock from '../components/blokCard.jsx';
 import InfoHome from '../components/infoHome.jsx';
 import CallWork from '../components/ballWork.jsx';
@@ -39,7 +39,7 @@ const Home = () => {
 		<>
 			<Header />
 			<TitleHome />
-			<Signboard />
+			<SignBoard />
 			<CardBlock>
 				{Object.entries(paramCard).map(([key, value], i) => (
 					<>

@@ -1,8 +1,7 @@
 import styles from './styles/numberBloc.module.css';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
-import '../i18next';
-import Size from './size';
+import Size from './size.jsx';
 const BlocNumber = () => {
 	const { t } = useTranslation();
 	const screenSize = Size();

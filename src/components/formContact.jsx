@@ -1,5 +1,4 @@
 import styles from './styles/formContact.module.css';
-import '../i18next';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 // import Size from './size';

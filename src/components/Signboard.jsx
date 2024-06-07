@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import '../../src/index.css';
 import styles from './styles/signboard.module.css';
 
-const Signboard = () => {
+const SignBoard = () => {
 	const { t } = useTranslation();
 
 	return (
@@ -25,4 +25,4 @@ const Signboard = () => {
 	);
 };
 
-export default Signboard;
+export default SignBoard;

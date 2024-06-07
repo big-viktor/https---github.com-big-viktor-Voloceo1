@@ -1,5 +1,4 @@
 import styles from './styles/blocOnas.module.css';
-import '../i18next';
 import ImgB from '../assets/Rectangle13.svg';
 import { useTranslation } from 'react-i18next';
 
