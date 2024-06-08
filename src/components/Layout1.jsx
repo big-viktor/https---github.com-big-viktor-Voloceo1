@@ -23,7 +23,7 @@ const Header = () => {
 								<Link to='/AboutUs'>{t('link2')}</Link>
 							</li>
 							<li className={styles.link_name}>
-								<Link to='/FormCopmanie'>{t('link4')}</Link>
+								<Link to='/FormCopmany'>{t('link4')}</Link>
 							</li>
 							<li className={styles.link_name}>
 								<Link to='/protected'>{t('link3')}</Link>
@@ -57,7 +57,7 @@ const Header = () => {
 									<Link to='/AboutUs'>{t('link2')}</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/FormCopmanie'>{t('link4')}</Link>
+									<Link to='/FormCopmany'>{t('link4')}</Link>
 								</li>
 								<li className={styles.link_name}>
 									<Link to='/protected'>{t('link3')}</Link>

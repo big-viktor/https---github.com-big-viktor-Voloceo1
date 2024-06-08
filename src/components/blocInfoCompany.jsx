@@ -2,11 +2,8 @@ import styles from './styles/blocInfoCompany.module.css';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
 
-import Button from './Button.jsx';
-import Size from './Size.jsx';
 const BlocInfoCompany = () => {
 	const { t } = useTranslation();
-	const screenSize = Size();
 	return (
 		<>
 			<div className={styles['wrap']}>

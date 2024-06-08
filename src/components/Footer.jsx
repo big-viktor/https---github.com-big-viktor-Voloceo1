@@ -12,7 +12,7 @@ import Viber from '../assets/Social Media/viber.svg';
 import yot from '../assets/Social Media/Youtube.svg';
 
 const Footer = () => {
-	const paramCard = {
+	const paramCards = {
 		routerLink1: {
 			socialHref: 'socialHref',
 			srcSocial: FB,
@@ -55,7 +55,7 @@ const Footer = () => {
 					<div className={styles['bloc_info']}>
 						<div className={styles['inf_footer']}>© 2024 Veloceo®</div>
 						<div className={styles['container_img__social']}>
-							{Object.entries(paramCard).map(([key, value]) => (
+							{Object.entries(paramCards).map(([key, value]) => (
 								<>
 									<div className={styles['content_card']}>
 										<SocialImg

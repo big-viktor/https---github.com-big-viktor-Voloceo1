@@ -13,6 +13,7 @@ import BlocOnas from '../components/blocOnas';
 import BlocInfoOnas from '../components/blocInfoOnas.jsx';
 import BlocNumber from '../components/numberBloc.jsx';
 import BlocOurTeam from '../components/blocOurTeam.jsx';
+import CardNumbr from '../components/cardNumber';
 
 function AboutUs() {
 	const paramCard = {
@@ -32,12 +33,40 @@ function AboutUs() {
 			foto: ImgThre,
 		},
 	};
+	const paramContainer = {
+		routerLink1: {
+			number: 'numberBloc',
+			text: 'textBloc',
+		},
+		routerLink2: {
+			number: 'numberBloc2',
+			text: 'textBloc2',
+		},
+		routerLink3: {
+			number: 'numberBloc3',
+			text: 'textBloc3',
+		},
+		routerLink4: {
+			number: 'numberBloc4',
+			text: 'textBloc3',
+		},
+		routerLink5: {
+			number: 'numberBloc5',
+			text: 'textBloc5',
+		},
+	};
 	return (
 		<>
 			<Header />
 			<BlocOnas />
 			<BlocInfoOnas />
-			<BlocNumber />
+			<BlocNumber>
+				{Object.entries(paramContainer).map(([key, value], i) => (
+					<>
+						<CardNumbr key={key} number={value.number} text={value.text} />
+					</>
+				))}
+			</BlocNumber>
 			<BlocOurTeam />
 			<div className='margin'>
 				<CardBlock>
