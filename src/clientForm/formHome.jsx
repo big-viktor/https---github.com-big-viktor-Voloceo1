@@ -5,7 +5,7 @@ import Button from '../components/Button.jsx';
 import { useTranslation } from 'react-i18next';
 import '../i18next';
 
-const FormHome = () => {
+const FormHome = ({ subjects }) => {
 	const { t } = useTranslation();
 	const [name, setName] = useState();
 	const [numbers, setNumbers] = useState();
@@ -17,7 +17,7 @@ const FormHome = () => {
 			.get(' http://localhost:1000', {
 				params: {
 					email: 'svitlik.viktor78@gmail.com',
-					subject: 'FormHome',
+					subject: subjects,
 					name,
 					numbers,
 					maill,

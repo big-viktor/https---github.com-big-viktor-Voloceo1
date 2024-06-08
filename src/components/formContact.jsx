@@ -12,7 +12,7 @@ const BlocFormContact = () => {
 					<div className={styles['title']}> {t('ContactTitle')}</div>
 					<div className={styles['content_bloc']}>
 						<div className={styles['bloc_form']}>
-							<FormHome />
+							<FormHome subjects={'FormContact'} />
 						</div>
 						<div className={styles['content_img']}>
 							<div className={styles['container_img']}>

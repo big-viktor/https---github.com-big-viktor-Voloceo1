@@ -42,7 +42,11 @@ function FormCopmany() {
 				))}
 			</BlocNumber>
 			<BlocInfoCompany />
-			<BlocFormHom text={'textFormCompani'} title={'titleFormCompani'} />
+			<BlocFormHom
+				subject={'formCompany'}
+				text={'textFormCompani'}
+				title={'titleFormCompani'}
+			/>
 			<BlockQuestions />
 			<div className='margin'></div>
 			<Footer />
