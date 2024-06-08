@@ -3,21 +3,21 @@ import { useTranslation } from 'react-i18next';
 import '../../src/index.css';
 import styles from './styles/signboard.module.css';
 
-const SignBoard = () => {
+const SignBoard = ({ number, numberTwo, text, textTwo }) => {
 	const { t } = useTranslation();
 
 	return (
 		<>
-			<div className={styles.container}>
-				<div className={styles.container_board}>
-					<div className={styles.content_board}>
-						<p className={styles.number_board}>15+</p>
-						<p className={styles.text_board}>{t('signboardText1')}</p>
+			<div className={styles['container']}>
+				<div className={styles['container_board']}>
+					<div className={styles['content_board']}>
+						<p className={styles['number_board']}>{t([number])}</p>
+						<p className={styles['text_board']}>{t([text])}</p>
 					</div>
-					<div className={styles.partition}></div>
-					<div className={styles.content_board}>
-						<p className={styles.number_board}>250+</p>
-						<p className={styles.text_board}>{t('signboardText2')}</p>
+					<div className={styles['partition']}></div>
+					<div className={styles['content_board']}>
+						<p className={styles['number_board']}>{t([numberTwo])}</p>
+						<p className={styles['text_board']}>{t([textTwo])}</p>
 					</div>
 				</div>
 			</div>

@@ -2,6 +2,7 @@
 	width: 100%;
 	display: flex;
 	height: auto;
+	min-height: 650px;
 	max-height: 711px;
 	gap: 15px;
 	border: 4px solid #73ce04;
@@ -47,6 +48,14 @@
 		font-size: 1.6vw;
 	}
 }
+@media (max-width: 1420px) {
+	.container {
+		min-height: 700px;
+		max-height: 711px;
+		gap: 15px;
+		padding: 0px 0px 45px 0px;
+	}
+}
 @media (max-width: 970px) {
 	.card_img {
 		width: 100%;
@@ -58,6 +67,12 @@
 	}
 	.card_text {
 		font-size: 1.8vw;
+	}
+	.container {
+		min-height: 500px;
+		max-height: 711px;
+		gap: 15px;
+		padding: 0px 0px 45px 0px;
 	}
 }
 @media (max-width: 598px) {

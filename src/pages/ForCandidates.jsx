@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../components/styles/servicesBloc.module.css';
 
 import Header from '../components/Layout1.jsx';
-import TitleHome from '../components/TitleHome.jsx';
 import SignBoard from '../components/Signboard.jsx';
 import InfoHome from '../components/InfoHome.jsx';
 import CallWork from '../components/CallWork.jsx';
@@ -16,35 +15,59 @@ import Footer from '../components/Footer.jsx';
 
 import CardImg from '../components/CardImg.jsx';
 
-import ImgOne from '../assets/Rectangle 18.svg';
-import ImgTwo from '../assets/Rectangle 20.svg';
-import ImgThre from '../assets/Rectangle 22.svg';
+import ImgOne from '../assets/Rectangle20.png';
+import ImgTwo from '../assets/Rectangle18.png';
+import ImgThre from '../assets/Rectangle22.png';
+import ImgFoo from '../assets/Rectangle56.png';
+import ImgFaive from '../assets/Rectangle57.png';
+import ImgSix from '../assets/Rectangle58.png';
+
+import BanerCandidates from '../components/banerCandidates';
 
 const ForCandidates = () => {
 	const paramCard = {
 		routerLink1: {
-			name: 'serviceBlocTitleOne',
-			infoText: 'serviceBlocTextOne',
+			name: 'cardTitleCandidates',
+			infoText: 'cardTextCandidates',
 			foto: ImgOne,
 		},
 		routerLink2: {
-			name: 'serviceBlocTitleTwo',
-			infoText: 'serviceBlocTextTwo',
+			name: 'cardTitleCandidates2',
+			infoText: 'cardTextCandidates2',
 			foto: ImgTwo,
 		},
 		routerLink3: {
-			name: 'serviceBlocTitleThre',
-			infoText: 'serviceBlocTextThre',
+			name: 'cardTitleCandidates3',
+			infoText: 'cardTextCandidates3',
 			foto: ImgThre,
+		},
+		routerLink4: {
+			name: 'cardTitleCandidates4',
+			infoText: 'cardTextCandidates4',
+			foto: ImgFoo,
+		},
+		routerLink5: {
+			name: 'cardTitleCandidates5',
+			infoText: 'cardTextCandidates5',
+			foto: ImgFaive,
+		},
+		routerLink6: {
+			name: 'cardTitleCandidates6',
+			infoText: 'cardTextCandidates6',
+			foto: ImgSix,
 		},
 	};
 	return (
 		<>
 			<Header />
-			<TitleHome />
-			<SignBoard />
+			<BanerCandidates />
+			<SignBoard
+				number={'numberCandidates'}
+				numberTwo={'numberCandidates2'}
+				text={'candidatesText1'}
+				textTwo={'candidatesText2'}
+			/>
 
-			<InfoHome />
 			<CallWork sendUrl={ImgWork} />
 			<ServicesBloc>
 				{Object.entries(paramCard).map(([key, value]) => (

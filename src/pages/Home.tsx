@@ -62,9 +62,14 @@ const Home = () => {
 		<>
 			<Header />
 			<TitleHome />
-			<SignBoard />
+			<SignBoard
+				number={'numberSignboard'}
+				numberTwo={'numberSignboard2'}
+				text={'signboardText1'}
+				textTwo={'signboardText2'}
+			/>
 			<CardBlock>
-				{Object.entries(paramCard).map(([key, value], i) => (
+				{Object.entries(paramCard).map(([key, value]) => (
 					<>
 						<Card
 							key={key}

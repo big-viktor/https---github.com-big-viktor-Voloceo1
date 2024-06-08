@@ -39,6 +39,22 @@
 		background-size: 100%;
 	}
 }
+@media (max-width: 1330px) {
+	.block_image_basc {
+		height: 95%;
+		width: 71%;
+		background-color: #73ce04;
+		max-height: 451px;
+	}
+}
+@media (max-width: 1200px) {
+	.block_image_basc {
+		height: 95%;
+		width: 71%;
+		background-color: #73ce04;
+		max-height: 400px;
+	}
+}
 @media (max-width: 1055px) {
 	.block_image_basc {
 		height: 95%;
