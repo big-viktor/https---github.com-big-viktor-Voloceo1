@@ -11,7 +11,7 @@ import CardNumbr from '../components/cardNumber.jsx';
 import BlocEployees from '../components/blocEmployees.jsx';
 import BlockQuestions from '../components/blockQuestions.jsx';
 
-function FormCopmany() {
+function ForCompany() {
 	const paramCardNumber = {
 		routerLink2: {
 			number: 'numberBloc2',
@@ -53,4 +53,4 @@ function FormCopmany() {
 		</>
 	);
 }
-export default FormCopmany;
+export default ForCompany;

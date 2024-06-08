@@ -23,10 +23,10 @@ const Header = () => {
 								<Link to='/AboutUs'>{t('link2')}</Link>
 							</li>
 							<li className={styles.link_name}>
-								<Link to='/FormCopmany'>{t('link4')}</Link>
+								<Link to='/ForCompany'>{t('link4')}</Link>
 							</li>
 							<li className={styles.link_name}>
-								<Link to='/protected'>{t('link3')}</Link>
+								<Link to='/ForCandidates'>{t('link3')}</Link>
 							</li>
 
 							<li className={styles.link_name}>
@@ -57,10 +57,10 @@ const Header = () => {
 									<Link to='/AboutUs'>{t('link2')}</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/FormCopmany'>{t('link4')}</Link>
+									<Link to='/ForCompany'>{t('link4')}</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/protected'>{t('link3')}</Link>
+									<Link to='/ForCandidates'>{t('link3')}</Link>
 								</li>
 
 								<li className={styles.link_name}>
