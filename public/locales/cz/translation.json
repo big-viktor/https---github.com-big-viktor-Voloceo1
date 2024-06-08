@@ -16,6 +16,10 @@
     
     "signboardText1":"Máme Více Než 15 Let Zkušeností Se Zaměstnáváním A Poskytováním Služeb V Oblasti Dočasného Přidělení.",
     "signboardText2":"Máme Databázi Tisíců Kandidátů, Z Které Vybíráme Vhodné Uchazeče. Aktuálně Přidělujeme Práci Více Než 200 Zaměstnancům.",
+    "numberSignboard":"15+ ",
+    "numberSignboard2":"250+",
+    
+
 
     "cardBlockTitle":"Individuální přístup ke každému klientovi" ,
     "cardTitleOne":"Více než jen personální agentura",
@@ -156,6 +160,36 @@
     "showTextQuestions7":"Cenovou nabídku vám rádi připravíme, jakmile získáme potřebné informace od vás. Cenová nabídka vás ke ničemu nezavazuje, navíc budete mít přehled o ceně.",
 
     "titleQuestions8":"Co vše potřebujete pro vytvoření cenové nabídky?",
-    "showTextQuestions8":"Použijte náš kontaktní formulář nebo zašlete e-mail na adresu info@veloceo.cz s žádostí o cenovou nabídku. V textu nám prosím popište co nejvíce informací, jako je lokalita, základní mzda, příplatky za odpolední, noční, víkendové a přesčasové hodiny, bonusy, odměny, stravování včetně výše stravenkového paušálu nebo dotace na stravování, možnost 13. mzdy, týdenní pracovní doba, směny a jejich rozvržení, odhadovaný počet volných pozic a průměrné mzdy na požadovaných pozicích. Čím více informací poskytnete, tím přesnější nabídku budeme schopni sestavit odpovídající vašim potřebám."
+    "showTextQuestions8":"Použijte náš kontaktní formulář nebo zašlete e-mail na adresu info@veloceo.cz s žádostí o cenovou nabídku. V textu nám prosím popište co nejvíce informací, jako je lokalita, základní mzda, příplatky za odpolední, noční, víkendové a přesčasové hodiny, bonusy, odměny, stravování včetně výše stravenkového paušálu nebo dotace na stravování, možnost 13. mzdy, týdenní pracovní doba, směny a jejich rozvržení, odhadovaný počet volných pozic a průměrné mzdy na požadovaných pozicích. Čím více informací poskytnete, tím přesnější nabídku budeme schopni sestavit odpovídající vašim potřebám.",
+
+    "titleBanerCandidates":"Zaměstnání v České republice: Najděte práci s ",
+    "spanBanerCandidates":"Veloceo®",
+    "banerTitleCandidates":"Velký výběr volných pracovních pozic.",
+    "banerTitleCandidates2":"Práce pro jednotlivce a páry.",
+    "banerTitleCandidates3":"Koordinátoři, kteří mluví česky, anglicky, ukrajinsky, maďarsky a rusky.",
+    "banerTitleCandidates4":"Pomáháme s dopravou, ubytováním a dle potřeby poskytneme i zálohu.",
+
+    "candidatesText1":"Více než 15 let zkušeností v oblasti dočasného přidělení.",
+    "candidatesText2":"Za celou dobu jsme pomohli více než 2000 lidem najít práci.",
+    "numberCandidates":"15+ ",
+    "numberCandidates2":"2000+",
+
+    "cardTitleCandidates":"Koordinace",
+    "cardTitleCandidates2":"Ubytování",
+    "cardTitleCandidates3":"Doprava",
+    "cardTitleCandidates4":"Zálohy",
+    "cardTitleCandidates5":"Legislativa",
+    "cardTitleCandidates6":"Práce",
+
+    "cardTextCandidates":"Naši koordinátoři, kteří ovládají český, ukrajinský, anglický, maďarský a ruský jazyk, vám pomohou s řešením vašich požadavků.",
+    "cardTextCandidates2":"Pro naše zaměstnance poskytujeme ubytování v maximální možné blízkosti pracoviště, aby jejich život byl co nejjednodušší.",
+    "cardTextCandidates3":"Pokud není možné využít městskou hromadnou dopravu, zajistíme vám dopravu do práce a zpět.",
+    "cardTextCandidates4":"Naši zaměstnanci mohou v případě potřeby získat týdenní zálohy, a to až do okamžiku, kdy obdrží svou první mzdu.",
+    "cardTextCandidates5":"Rádi vám pomůžeme s vyřízením víz a potřebných dokumentů pro práci u nás, abyste měli klidnou mysl.",
+    "cardTextCandidates6":"Nabízíme práci pouze u spolehlivých firem, abychom zajistili vaše spokojenost a bezpečnost na pracovišti."
+
+    
+
+
 }
   
