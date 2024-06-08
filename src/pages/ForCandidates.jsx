@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from '../components/styles/servicesBloc.module.css';
+
 import Header from '../components/Layout1.jsx';
 import TitleHome from '../components/TitleHome.jsx';
 import SignBoard from '../components/Signboard.jsx';
-import CardBlock from '../components/BlokCard.jsx';
 import InfoHome from '../components/InfoHome.jsx';
 import CallWork from '../components/CallWork.jsx';
 import ImgWork from '../assets/Rectangle14.svg';
@@ -12,26 +13,28 @@ import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
 import BlocInfo from '../components/BlocInfo.jsx';
 import Footer from '../components/Footer.jsx';
-import ImgOne from '../assets/Frame75.svg';
-import ImgTwo from '../assets/Frame76.svg';
-import ImgThre from '../assets/Frame77.svg';
-import Card from '../components/card.jsx';
+
+import CardImg from '../components/CardImg.jsx';
+
+import ImgOne from '../assets/Rectangle 18.svg';
+import ImgTwo from '../assets/Rectangle 20.svg';
+import ImgThre from '../assets/Rectangle 22.svg';
 
 const ForCandidates = () => {
 	const paramCard = {
 		routerLink1: {
-			name: 'cardTitleOne',
-			infoText: 'cardTextOne',
+			name: 'serviceBlocTitleOne',
+			infoText: 'serviceBlocTextOne',
 			foto: ImgOne,
 		},
 		routerLink2: {
-			name: 'cardTitleTwo',
-			infoText: 'cardTextTwo',
+			name: 'serviceBlocTitleTwo',
+			infoText: 'serviceBlocTextTwo',
 			foto: ImgTwo,
 		},
 		routerLink3: {
-			name: 'cardTitleThre',
-			infoText: 'cardTextThre',
+			name: 'serviceBlocTitleThre',
+			infoText: 'serviceBlocTextThre',
 			foto: ImgThre,
 		},
 	};
@@ -40,21 +43,23 @@ const ForCandidates = () => {
 			<Header />
 			<TitleHome />
 			<SignBoard />
-			<CardBlock>
-				{Object.entries(paramCard).map(([key, value], i) => (
-					<>
-						<Card
-							key={key}
-							img={value.foto}
-							title={value.name}
-							text={value.infoText}
-						/>
-					</>
-				))}
-			</CardBlock>
+
 			<InfoHome />
 			<CallWork sendUrl={ImgWork} />
-			<ServicesBloc />
+			<ServicesBloc>
+				{Object.entries(paramCard).map(([key, value]) => (
+					<>
+						<div className={styles['content_card']}>
+							<CardImg
+								key={key}
+								img={value.foto}
+								title={value.name}
+								text={value.infoText}
+							/>
+						</div>
+					</>
+				))}
+			</ServicesBloc>
 			<BlackBlok
 				text={'blackText'}
 				title={'blackTitle'}

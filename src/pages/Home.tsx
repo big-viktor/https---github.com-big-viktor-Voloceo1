@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '../components/styles/servicesBloc.module.css';
 import Header from '../components/Layout1.jsx';
 import TitleHome from '../components/TitleHome.jsx';
 import SignBoard from '../components/Signboard.jsx';
@@ -16,6 +17,10 @@ import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
 import ImgThre from '../assets/Frame77.svg';
 import Card from '../components/card.jsx';
+import CardImg from '../components/CardImg.jsx';
+import ImgOne1 from '../assets/Rectangle 18.svg';
+import ImgTwo1 from '../assets/Rectangle 20.svg';
+import ImgThre1 from '../assets/Rectangle 22.svg';
 
 const Home = () => {
 	const paramCard = {
@@ -33,6 +38,24 @@ const Home = () => {
 			name: 'cardTitleThre',
 			infoText: 'cardTextThre',
 			foto: ImgThre,
+		},
+	};
+
+	const paramCards = {
+		routerLink1: {
+			name: 'serviceBlocTitleOne',
+			infoText: 'serviceBlocTextOne',
+			foto: ImgOne1,
+		},
+		routerLink2: {
+			name: 'serviceBlocTitleTwo',
+			infoText: 'serviceBlocTextTwo',
+			foto: ImgTwo1,
+		},
+		routerLink3: {
+			name: 'serviceBlocTitleThre',
+			infoText: 'serviceBlocTextThre',
+			foto: ImgThre1,
 		},
 	};
 	return (
@@ -54,7 +77,20 @@ const Home = () => {
 			</CardBlock>
 			<InfoHome />
 			<CallWork sendUrl={ImgWork} />
-			<ServicesBloc />
+			<ServicesBloc>
+				{Object.entries(paramCards).map(([key, value]) => (
+					<>
+						<div className={styles['content_card']}>
+							<CardImg
+								key={key}
+								img={value.foto}
+								title={value.name}
+								text={value.infoText}
+							/>
+						</div>
+					</>
+				))}
+			</ServicesBloc>
 			<BlackBlok
 				text={'blackText'}
 				title={'blackTitle'}
