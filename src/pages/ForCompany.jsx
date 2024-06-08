@@ -9,6 +9,7 @@ import BlocInfoCompany from '../components/blocInfoCompany.jsx';
 import BlocNumber from '../components/numberBloc.jsx';
 import CardNumbr from '../components/cardNumber.jsx';
 import BlocEployees from '../components/blocEmployees.jsx';
+import BlockQuestions from '../components/blockQuestions.jsx';
 
 function FormCopmany() {
 	const paramCardNumber = {
@@ -42,6 +43,7 @@ function FormCopmany() {
 			</BlocNumber>
 			<BlocInfoCompany />
 			<BlocFormHom text={'textFormCompani'} title={'titleFormCompani'} />
+			<BlockQuestions />
 			<div className='margin'></div>
 			<Footer />
 		</>

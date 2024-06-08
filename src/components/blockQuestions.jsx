@@ -1,30 +1,61 @@
-import styles from './styles/blocEployees.module.css';
+import styles from './styles/blockQuestions.module.css';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
+import Titles from './Titles.jsx';
+import DownMenu from './downMenu.jsx';
 
 const BlockQuestions = () => {
+	const showQuestions = {
+		routerLink: {
+			title: 'titleQuestions',
+			text: 'showTextQuestions',
+		},
+		routerLink2: {
+			title: 'titleQuestions2',
+			text: 'showTextQuestions2',
+		},
+		routerLink3: {
+			title: 'titleQuestions3',
+			text: 'showTextQuestions3',
+		},
+		routerLink4: {
+			title: 'titleQuestions4',
+			text: 'showTextQuestions4',
+		},
+		routerLink5: {
+			title: 'titleQuestions5',
+			text: 'showTextQuestions5',
+		},
+		routerLink6: {
+			title: 'titleQuestions6',
+			text: 'showTextQuestions6',
+		},
+		routerLink7: {
+			title: 'titleQuestions7',
+			text: 'showTextQuestions7',
+		},
+		routerLink8: {
+			title: 'titleQuestions8',
+			text: 'showTextQuestions8',
+		},
+	};
+
 	const { t } = useTranslation();
 
 	return (
 		<>
 			<div className={styles['wrap']}>
-				<div className={styles['content']}>
-					<div className={styles['container_title']}>
-						<p className={styles['content_title']}>
-							<span className={styles['title_text']}>
-								{t('titleCompaniEmpoyees')}
-							</span>
-							<span className={styles['title_span']}>{t('titleHom2')}</span>
-						</p>
-						<div className={styles['title_text2']}>
-							{t('textCompaniEmpoyees')}
-						</div>
+				<div className={styles['container']}>
+					<div className={styles['content_text']}>
+						<Titles title={'titleBlocQuestions'} />
+						<div className={styles['text']}>{t('textBlocQuestions')}</div>
 					</div>
-					<div className={styles['container_img']}>
-						<div className={styles['content_img']}>
-							<div className={styles['img1']}></div>
-							<div className={styles['img2']}></div>
-						</div>
+					<div className={styles['content_menu']}>
+						{Object.entries(showQuestions).map(([key, value]) => (
+							<>
+								<DownMenu key={key} title={value.title} text={value.text} />
+							</>
+						))}
 					</div>
 				</div>
 			</div>

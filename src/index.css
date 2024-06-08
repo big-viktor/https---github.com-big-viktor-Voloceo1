@@ -4,6 +4,16 @@ body {
 	height: 100%;
 }
 @font-face {
+	font-family: 'interRegular';
+
+	src: url('./fonts/Inter/static/Inter-Regular.ttf');
+}
+@font-face {
+	font-family: 'interBold';
+
+	src: url('./fonts/Inter/static/Inter-SemiBold.ttf');
+}
+@font-face {
 	font-family: 'SemiBold';
 
 	src: url('./fonts/montserrat/static/Montserrat-SemiBold.ttf');
