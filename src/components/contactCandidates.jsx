@@ -9,7 +9,7 @@ import Wath from '../assets/Social Media/Social Media/whiteWath.png';
 import Teleg from '../assets/Social Media/Social Media/whiteTelegram.png';
 import Fc from '../assets/Social Media/Social Media/whiteFc.png';
 
-import SocialImg from './SocialImg';
+import SocialImg from './SocialImg.jsx';
 
 const ContactCandidates = () => {
 	const screenSize = Size();

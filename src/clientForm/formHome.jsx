@@ -3,7 +3,7 @@ import axios from 'axios';
 import styles from './style/form.module.css';
 import Button from '../components/Button.jsx';
 import { useTranslation } from 'react-i18next';
-import '../i18next';
+import '../i18next.js';
 
 const FormHome = ({ subjects }) => {
 	const { t } = useTranslation();

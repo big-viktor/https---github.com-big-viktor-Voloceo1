@@ -1,5 +1,5 @@
 import styles from './styles/blocInfoOnas.module.css';
-import '../i18next';
+import '../i18next.js';
 import { useTranslation } from 'react-i18next';
 
 import Button from './Button.jsx';
