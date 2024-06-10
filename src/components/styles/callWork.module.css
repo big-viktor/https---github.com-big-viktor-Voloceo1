@@ -11,7 +11,7 @@
 }
 .content {
 	width: 100%;
-	background-color: #73ce04;
+	/* background-color: #73ce04; */
 	padding: 76px 70px 63px 234px;
 	display: flex;
 	flex-direction: column;
@@ -19,7 +19,6 @@
 	align-items: flex-start;
 }
 .text {
-	color: #1a1a1a;
 	font-size: 1.2vw;
 	font-style: normal;
 	font-family: 'fontRegular', sans-serif;
@@ -38,7 +37,6 @@
 	display: flex;
 	padding: 16px 40px;
 	position: relative;
-	max-width: 294px;
 	box-sizing: border-box;
 	align-items: center;
 	border-radius: 5px 5px 5px 5px;

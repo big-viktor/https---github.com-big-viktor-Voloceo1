@@ -81,7 +81,17 @@ const Home = () => {
 				))}
 			</CardBlock>
 			<InfoHome />
-			<CallWork sendUrl={ImgWork} />
+			<CallWork
+				sendUrl={ImgWork}
+				color={false}
+				sendColor='#73ce04'
+				titles='callTitle'
+				text='callText'
+				sendColorText='#1a1a1a'
+				btnRef={false}
+				btnName='callNumber'
+			/>
+
 			<ServicesBloc>
 				{Object.entries(paramCards).map(([key, value]) => (
 					<>

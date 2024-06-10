@@ -3,14 +3,12 @@ import styles from '../components/styles/servicesBloc.module.css';
 
 import Header from '../components/Layout1.jsx';
 import SignBoard from '../components/Signboard.jsx';
-import InfoHome from '../components/InfoHome.jsx';
 import CallWork from '../components/CallWork.jsx';
-import ImgWork from '../assets/Rectangle14.svg';
+import ImgWork from '../assets/Rectangle54.png';
 import ServicesBloc from '../components/ServicesBloc.jsx';
 import '../i18next';
 import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
-import BlocInfo from '../components/BlocInfo.jsx';
 import Footer from '../components/Footer.jsx';
 
 import CardImg from '../components/CardImg.jsx';
@@ -22,7 +20,9 @@ import ImgFoo from '../assets/Rectangle56.png';
 import ImgFaive from '../assets/Rectangle57.png';
 import ImgSix from '../assets/Rectangle58.png';
 
-import BanerCandidates from '../components/banerCandidates';
+import BanerCandidates from '../components/banerCandidates.jsx';
+import InfoCandidates from '../components/infoCandidates.jsx';
+import ContactCandidates from '../components/contactCandidates.jsx';
 
 const ForCandidates = () => {
 	const paramCard = {
@@ -60,6 +60,7 @@ const ForCandidates = () => {
 	return (
 		<>
 			<Header />
+
 			<BanerCandidates />
 			<SignBoard
 				number={'numberCandidates'}
@@ -68,7 +69,17 @@ const ForCandidates = () => {
 				textTwo={'candidatesText2'}
 			/>
 
-			<CallWork sendUrl={ImgWork} />
+			<CallWork
+				sendUrl={ImgWork}
+				color={true}
+				sendColor='#000000'
+				titles='titleCandidatesBaner'
+				text='textCandidatesBaner'
+				sendColorText='#FFFFFF'
+				btnRef={true}
+				btnName='btnNameCandidates'
+			/>
+			<ContactCandidates />
 			<ServicesBloc>
 				{Object.entries(paramCard).map(([key, value]) => (
 					<>
@@ -89,14 +100,15 @@ const ForCandidates = () => {
 				btnName={'btnName'}
 				showBtn={true}
 			/>
+			<InfoCandidates />
 			<BlocFormHom
-				subject={'formHome'}
-				text={'formTextHome'}
-				title={'formTitleHom'}
+				subject={'formCandidates'}
+				text={'textCandidatesForm'}
+				title={'titleCandidatesForm'}
 			/>
-			<div className='margin'>
-				<BlocInfo />
-			</div>
+			<div id='form_candidates'></div>
+
+			<div className='margin'></div>
 			<Footer />
 		</>
 	);
