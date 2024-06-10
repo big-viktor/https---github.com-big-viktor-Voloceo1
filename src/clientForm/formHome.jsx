@@ -14,7 +14,7 @@ const FormHome = ({ subjects }) => {
 
 	const sendMail = () => {
 		axios
-			.get('process.env.API_URL', {
+			.get('https://voloceo1.vercel.app/', {
 				params: {
 					email: 'svitlik.viktor78@gmail.com',
 					subject: subjects,
