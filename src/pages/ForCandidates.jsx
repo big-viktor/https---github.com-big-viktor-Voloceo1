@@ -23,6 +23,7 @@ import ImgSix from '../assets/Rectangle58.png';
 import BanerCandidates from '../components/banerCandidates.jsx';
 import InfoCandidates from '../components/infoCandidates.jsx';
 import ContactCandidates from '../components/contactCandidates.jsx';
+import BlocCandidatesWork from '../components/blocCandidatesWork.jsx';
 
 const ForCandidates = () => {
 	const paramCard = {
@@ -68,7 +69,7 @@ const ForCandidates = () => {
 				text={'candidatesText1'}
 				textTwo={'candidatesText2'}
 			/>
-
+			<BlocCandidatesWork />
 			<CallWork
 				sendUrl={ImgWork}
 				color={true}

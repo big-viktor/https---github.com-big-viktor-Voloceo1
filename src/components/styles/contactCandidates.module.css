@@ -1,0 +1,47 @@
+.container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 200px 0px 0px 0px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	background-color: #73ce04;
+	max-width: 1438px;
+	justify-content: space-between;
+	padding: 50px 50px;
+}
+.text {
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	font-family: 'SemiBold', sans-serif;
+	font-weight: 600;
+	line-height: 33px;
+	letter-spacing: 0;
+	text-transform: none;
+	width: 47%;
+}
+.content_social {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	margin-top: 30px;
+}
+
+@media (max-width: 745px) {
+	.content {
+		flex-direction: column;
+		gap: 15px;
+	}
+	.text {
+		width: 100%;
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+@media (max-width: 500px) {
+}

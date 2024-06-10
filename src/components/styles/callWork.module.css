@@ -114,7 +114,6 @@
 		margin: 35px 0px 26px 23px;
 		padding: 13px 0px;
 		font-size: 17px;
-		max-width: 227px;
 	}
 }
 @media (max-width: 450px) {
@@ -132,6 +131,5 @@
 		margin: 35px 0px 23px 13px;
 		padding: 13px 0px;
 		font-size: 17px;
-		max-width: 227px;
 	}
 }
