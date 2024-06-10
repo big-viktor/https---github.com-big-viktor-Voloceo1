@@ -13,7 +13,14 @@ const ContactCandidates = () => {
 	const screenSize = Size();
 
 	const { t } = useTranslation();
-	return <div className={styles['container']}>s</div>;
+	return (
+		<div className={styles['container']}>
+			<div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	);
 };
 
 export default ContactCandidates;
