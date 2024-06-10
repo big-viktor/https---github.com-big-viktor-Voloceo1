@@ -87,8 +87,9 @@ function sendEmail({ email, subject, message, name, numbers, maill }) {
 }
 
 app.get("/", (req, res) => {
-  res.send('Hello World')
-
+  sendEmail(req.query)
+    .then((response) => res.send(response.message))
+    .catch((error) => res.status(500).send(error.message));
 });
 
 app.listen(port, () => {
