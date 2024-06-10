@@ -1,5 +1,5 @@
 import styles from './styles/blockQuestions.module.css';
-import '../i18next.js';
+import '../i18next';
 import { useTranslation } from 'react-i18next';
 import Titles from './Titles.jsx';
 import DownMenu from './downMenu.jsx';

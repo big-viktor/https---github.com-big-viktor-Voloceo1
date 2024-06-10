@@ -1,6 +1,6 @@
 import styles from './styles/formContact.module.css';
 import { useTranslation } from 'react-i18next';
-import '../i18next.js';
+import '../i18next';
 import FormHome from '../clientForm/formHome.jsx';
 
 const BlocFormContact = () => {

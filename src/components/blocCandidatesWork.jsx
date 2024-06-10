@@ -7,7 +7,7 @@ import Size from './Size.jsx';
 import Viber from '../assets/Social Media/Social Media/viber2.png';
 import Wath from '../assets/Social Media/Social Media/whatsap2.png';
 import Teleg from '../assets/Social Media/Social Media/Telegram.png';
-import SocialImg from './SocialImg.jsx';
+import SocialImg from './SocialImg';
 import CardBorder from './cardBorder.jsx';
 
 const BlocCandidatesWork = () => {
