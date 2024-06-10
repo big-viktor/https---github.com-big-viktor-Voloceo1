@@ -14,7 +14,7 @@ const FormHome = ({ subjects }) => {
 
 	const sendMail = () => {
 		axios
-			.get(' http://localhost:1000', {
+			.get('process.env.API_URL', {
 				params: {
 					email: 'svitlik.viktor78@gmail.com',
 					subject: subjects,
