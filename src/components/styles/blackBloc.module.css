@@ -122,6 +122,6 @@
 		margin-top: 113px;
 		gap: 0px;
 		flex-direction: row;
-		justify-content: space-around;
+		justify-content: space-evenly;
 	}
 }

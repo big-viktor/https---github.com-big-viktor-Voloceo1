@@ -89,7 +89,7 @@ const Form = () => {
 			/>
 			<div className={!isOpen ? styles.close : styles.open}>
 				<ReCAPTCHA
-					sitekey='6Lc7avkpAAAAAGPRBkZyO8aIA48jA5W05y9FRcGS'
+					sitekey='6LenuPspAAAAAPoFx1PURaojd453iGmOV9zFLaeJ'
 					onChange={val => setCapVal(val)}
 					disableds={!isOpen}
 				/>
