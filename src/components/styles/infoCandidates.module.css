@@ -113,3 +113,8 @@
 		gap: 21px;
 	}
 }
+@media (min-width: 2300px) {
+	.text {
+		line-height: 50px;
+	}
+}

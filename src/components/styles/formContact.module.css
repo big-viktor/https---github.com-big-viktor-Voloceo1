@@ -56,10 +56,30 @@
 	height: 545px;
 }
 @media (min-width: 1925px) {
+	.content_img {
+		max-height: 620px;
+		max-width: 580px;
+	}
+	.content_bloc {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		align-items: center;
+		margin: 74px 0px 0px 0px;
+		justify-content: space-evenly;
+	}
+	.title {
+		width: 73%;
+	}
 	.wrap {
 		max-width: 100%;
 		margin: 0 auto;
 		padding: 129px 0px 0px 80px;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 }
 @media (max-width: 1555px) {
