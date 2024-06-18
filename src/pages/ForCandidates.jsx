@@ -7,7 +7,6 @@ import CallWork from '../components/CallWork.jsx';
 import ImgWork from '../assets/Rectangle54.png';
 import ServicesBloc from '../components/ServicesBloc.jsx';
 import '../i18next';
-import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
 import Footer from '../components/Footer.jsx';
 
@@ -95,12 +94,7 @@ const ForCandidates = () => {
 					</>
 				))}
 			</ServicesBloc>
-			<BlackBlok
-				text={'blackText'}
-				title={'blackTitle'}
-				btnName={'btnName'}
-				showBtn={true}
-			/>
+
 			<InfoCandidates />
 			<BlocFormHom
 				subject={'formCandidates'}

@@ -59,6 +59,10 @@
 	}
 }
 @media (max-width: 1535px) {
+	.container {
+		max-height: max-content;
+		padding: 5px 10px 5px 10px;
+	}
 	.card_title {
 		font-size: 2.5vw;
 		line-height: 38px;

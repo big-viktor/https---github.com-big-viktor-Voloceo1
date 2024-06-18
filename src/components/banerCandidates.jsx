@@ -2,6 +2,9 @@ import styles from './styles/titleHom.module.css';
 import { useTranslation } from 'react-i18next';
 import Title from './Title.jsx';
 import PictureBackground from './PictureBackground.jsx';
+import rectagle from '../assets/Rectangle2candidat.svg';
+import rectagleMini from '../assets/RectangleMini2.png';
+import rectagleMini2 from '../assets/RectangleMini61.png';
 
 const BaneCandidates = () => {
 	const { t } = useTranslation();
@@ -20,7 +23,11 @@ const BaneCandidates = () => {
 						titleSpan4={t('banerTitleCandidates4')}
 					/>
 				</div>
-				<PictureBackground />
+				<PictureBackground
+					sendUrl={rectagle}
+					sendUrl2={rectagleMini}
+					sendUrl3={rectagleMini2}
+				/>
 			</div>
 		</>
 	);

@@ -18,7 +18,8 @@
 	height: 96%;
 	right: 211px;
 	top: 94px;
-	background: no-repeat url('../../assets/Rectangle2.svg');
+	background-repeat: no-repeat;
+	/* background: no-repeat url('../../assets/Rectangle2.svg'); */
 	max-width: 564px;
 	background-size: 100%;
 }
@@ -70,7 +71,7 @@
 		width: 97%;
 	}
 	.image {
-		background: no-repeat url('../../assets/Rectangle42.svg');
+		/* background: no-repeat url('../../assets/Rectangle42.svg'); */
 		height: 265px;
 		top: 35px;
 		right: 99px;
@@ -97,7 +98,7 @@
 }
 @media (max-width: 520px) {
 	.image {
-		background: no-repeat url('../../assets/Rectangle28.svg');
+		/* background: no-repeat url('../../assets/Rectangle28.svg'); */
 	}
 }
 @media (min-width: 1999px) {

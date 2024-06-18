@@ -30,8 +30,18 @@
 }
 @media (max-width: 1535px) {
 	.container_content {
+		transform: 0.8s;
+		gap: 15px;
+	}
+	.container {
+		padding: 99px 45px 0px 45px;
+	}
+}
+@media (max-width: 900px) {
+	.container_content {
 		flex-wrap: wrap;
 		transform: 0.8s;
+		gap: 15px;
 	}
 	.container {
 		padding: 99px 45px 0px 45px;

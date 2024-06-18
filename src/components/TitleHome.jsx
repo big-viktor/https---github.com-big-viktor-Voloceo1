@@ -2,7 +2,9 @@ import styles from './styles/titleHom.module.css';
 import { useTranslation } from 'react-i18next';
 import Title from './Title.jsx';
 import PictureBackground from './PictureBackground.jsx';
-
+import rectagle from '../assets/Rectanglehom2.png';
+import rectagleMini from '../assets/Rectanglehommin42.png';
+import rectagleMini2 from '../assets/Rectangleminihom28.png';
 const TitleHome = () => {
 	const { t } = useTranslation();
 
@@ -17,7 +19,11 @@ const TitleHome = () => {
 						titleHome3={t('titleHom3')}
 					/>
 				</div>
-				<PictureBackground />
+				<PictureBackground
+					sendUrl={rectagle}
+					sendUrl2={rectagleMini}
+					sendUrl3={rectagleMini2}
+				/>
 			</div>
 		</>
 	);

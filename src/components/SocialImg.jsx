@@ -7,7 +7,11 @@ const SocialImg = ({ socialHref, srcSocial }) => {
 
 	return (
 		<>
-			<a href={t([socialHref])}>
+			<a
+				href={t([socialHref])}
+				rel='noreferrer noopener nofollow'
+				target='_blank'
+			>
 				<img src={srcSocial} alt='#' />
 			</a>
 		</>

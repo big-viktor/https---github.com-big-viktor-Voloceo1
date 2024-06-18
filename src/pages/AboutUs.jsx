@@ -48,7 +48,7 @@ function AboutUs() {
 		},
 		routerLink4: {
 			number: 'numberBloc4',
-			text: 'textBloc3',
+			text: 'textBloc4',
 		},
 		routerLink5: {
 			number: 'numberBloc5',

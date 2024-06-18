@@ -18,10 +18,6 @@ const BlockQuestions = () => {
 			title: 'titleQuestions3',
 			text: 'showTextQuestions3',
 		},
-		routerLink4: {
-			title: 'titleQuestions4',
-			text: 'showTextQuestions4',
-		},
 		routerLink5: {
 			title: 'titleQuestions5',
 			text: 'showTextQuestions5',
