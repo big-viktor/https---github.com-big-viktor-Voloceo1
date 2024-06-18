@@ -60,6 +60,7 @@
 		margin: 0 auto;
 		display: flex;
 		flex-direction: row;
+		justify-content: space-evenly;
 		padding: 0px 90px 0px 90px;
 	}
 }

@@ -2,7 +2,7 @@
 	width: 100%;
 	display: flex;
 	height: auto;
-	min-height: 650px;
+	min-height: 500px;
 	max-height: 711px;
 	gap: 15px;
 	border: 4px solid #73ce04;
@@ -40,6 +40,7 @@
 	flex-direction: column;
 	gap: 28px;
 }
+
 @media (max-width: 1440px) {
 	.card_title {
 		font-size: 2vw;
@@ -81,5 +82,17 @@
 	}
 	.card_text {
 		font-size: 4.4vw;
+	}
+}
+@media (min-width: 2500px) {
+	.container {
+		min-height: 977px;
+		max-height: max-content;
+	}
+	.card_text {
+		line-height: 45px;
+	}
+	.card_img {
+		width: 100%;
 	}
 }

@@ -51,20 +51,30 @@ const Header = () => {
 						<div className={isOpen ? styles.active_open : styles.active_closed}>
 							<ul className={styles.container_link1}>
 								<li className={styles.link_name}>
-									<Link to='/'>{t('link')}</Link>
+									<Link to='/' onClick={() => setIsOpen(!isOpen)}>
+										{t('link')}
+									</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/AboutUs'>{t('link2')}</Link>
+									<Link to='/AboutUs' onClick={() => setIsOpen(!isOpen)}>
+										{t('link2')}
+									</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/ForCompany'>{t('link4')}</Link>
+									<Link to='/ForCompany' onClick={() => setIsOpen(!isOpen)}>
+										{t('link4')}
+									</Link>
 								</li>
 								<li className={styles.link_name}>
-									<Link to='/ForCandidates'>{t('link3')}</Link>
+									<Link to='/ForCandidates' onClick={() => setIsOpen(!isOpen)}>
+										{t('link3')}
+									</Link>
 								</li>
 
 								<li className={styles.link_name}>
-									<Link to='/Contact'>{t('link5')}</Link>
+									<Link to='/Contact' onClick={() => setIsOpen(!isOpen)}>
+										{t('link5')}
+									</Link>
 								</li>
 							</ul>
 						</div>

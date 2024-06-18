@@ -8,7 +8,7 @@ import Card from '../components/card.jsx';
 
 import ImgOne from '../assets/Frame75.svg';
 import ImgTwo from '../assets/Frame76.svg';
-import ImgThre from '../assets/Frame77.svg';
+import ImgThre from '../assets/Framecard78.png';
 import BlocOnas from '../components/blocOnas';
 import BlocInfoOnas from '../components/blocInfoOnas.jsx';
 import BlocNumber from '../components/numberBloc.jsx';
@@ -28,8 +28,8 @@ function AboutUs() {
 			foto: ImgTwo,
 		},
 		routerLink3: {
-			name: 'cardTitleThre',
-			infoText: 'cardTextThre',
+			name: 'cardTitleFoo',
+			infoText: 'cardTextFoo',
 			foto: ImgThre,
 		},
 	};

@@ -11,7 +11,7 @@ const DownMenu = ({ title, text }) => {
 	return (
 		<>
 			<div className={styles.container}>
-				<div className={styles.content}>
+				<div className={styles.content} onClick={() => setIsOpen(!isOpen)}>
 					<p className={styles.title}>{t([title])}</p>
 					<div
 						className={isOpen ? styles.plus : styles.minus}

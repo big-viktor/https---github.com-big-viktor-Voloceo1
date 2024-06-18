@@ -3,6 +3,7 @@ import Titles from './Titles.jsx';
 import { useTranslation } from 'react-i18next';
 // import Card from './Card.jsx';
 // import ImgThre from '../assets/Frame 77.svg';
+import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
 const BlackBlok = ({ text, title, btnName, showBtn }) => {
@@ -16,7 +17,9 @@ const BlackBlok = ({ text, title, btnName, showBtn }) => {
 				<div className={styles['black_text']}>{t([text])}</div>
 				{showBtn ? (
 					<>
-						<div className={styles['content_btn']}>{t([btnName])}</div>
+						<div className={styles['content_btn']}>
+							<Link to='/ForCandidates'>{t([btnName])}</Link>
+						</div>
 					</>
 				) : (
 					<>{undefined}</>

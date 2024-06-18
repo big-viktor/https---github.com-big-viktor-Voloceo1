@@ -30,6 +30,12 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+@media (min-width: 1925px) {
+	.container_direction {
+		max-height: 438px;
+	}
+}
+
 @media (max-width: 1326px) {
 	.container {
 		background: #73ce04;

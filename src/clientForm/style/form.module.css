@@ -1,10 +1,11 @@
-.container_form {
+form {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	justify-content: space-between;
 	height: 100%;
 }
+
 .form_name {
 	color: #000;
 	font-size: 20px;
@@ -39,5 +40,28 @@
 	height: 148px;
 	resize: none;
 }
-.form_name textarea {
+input {
+	padding: 30px;
+}
+#g-recaptcha-response {
+	display: block !important;
+	position: absolute;
+	margin: -50px 0 0 0 !important;
+	z-index: -999999;
+	opacity: 0;
+}
+.hover {
+	background-color: red;
+}
+.noneHover {
+	background-color: blue;
+}
+.close {
+	display: none;
+}
+.open {
+	display: block;
+}
+.erorr {
+	color: red;
 }

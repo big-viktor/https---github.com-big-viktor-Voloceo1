@@ -23,6 +23,7 @@
 	letter-spacing: 0;
 	text-transform: none;
 	margin-top: 26px;
+	margin-bottom: 40px;
 }
 .text2 {
 	color: #fff;
@@ -51,9 +52,21 @@
 		height: auto;
 	}
 }
+@media (min-width: 2100px) {
+	.text1 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.text2 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+}
+
 @media (max-width: 1300px) {
 	.wrap {
 		background: no-repeat url('../../assets/Rectangle41Ipad.svg');
+		background-size: 100%;
 	}
 	.content {
 		padding: 40px 0px 160px 40px;

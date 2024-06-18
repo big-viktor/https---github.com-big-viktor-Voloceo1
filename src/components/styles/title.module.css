@@ -28,6 +28,20 @@
 	letter-spacing: 0;
 	text-transform: none;
 }
+.container_span {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.title_span__span {
+	font-size: 35px;
+	color: #73ce04;
+	font-style: normal;
+	font-family: 'fontMon';
+	font-weight: 700;
+	letter-spacing: 0;
+	text-transform: none;
+}
 .title_text2 {
 	color: #000;
 	font-size: 60px;
@@ -60,6 +74,7 @@
 	letter-spacing: 0;
 	text-transform: none;
 }
+
 .content_titleRevers {
 }
 @media (max-width: 1785px) {
@@ -100,6 +115,9 @@
 		line-height: 52px;
 		font-size: 40px;
 	}
+	.title_span__span {
+		font-size: 25px;
+	}
 }
 @media (max-width: 970px) {
 	.content_title {
@@ -136,6 +154,9 @@
 	}
 	.title_span {
 		font-size: 5.4vw;
+	}
+	.container_span {
+		justify-content: center;
 	}
 }
 @media (max-width: 640px) {

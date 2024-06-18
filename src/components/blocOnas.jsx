@@ -1,6 +1,7 @@
 import styles from './styles/blocOnas.module.css';
 import ImgB from '../assets/Rectangle13.svg';
 import { useTranslation } from 'react-i18next';
+import SpanText from './spanText';
 
 const BlocOnas = () => {
 	const { t } = useTranslation();
@@ -11,7 +12,7 @@ const BlocOnas = () => {
 					<div className={styles['content_title']}>
 						<div className={styles['title']}>{t('OnasTitle')}</div>
 						<div className={styles['content_text']}>
-							<span>Veloceo®:</span>
+							<SpanText titleHome2={t('titleHom2')} />
 							{t('OnasText')}
 						</div>
 					</div>

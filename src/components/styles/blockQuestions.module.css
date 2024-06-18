@@ -33,7 +33,7 @@
 }
 @media (min-width: 1925px) {
 	.wrap {
-		max-width: 100%;
+		max-width: 67%;
 		margin: 0 auto;
 		padding: 192px 90px 0px 90px;
 	}

@@ -1,13 +1,7 @@
 import styles from './styles/blocCandidatesWork.module.css';
-import { useTranslation } from 'react-i18next';
 import BacgCard from './BacgCard.jsx';
 import ImgPc from '../assets/RectangleWork28.svg';
-import ImgMini from '../assets/RectangleWork28.svg';
 import Size from './Size.jsx';
-import Viber from '../assets/Social Media/Social Media/viber2.png';
-import Wath from '../assets/Social Media/Social Media/whatsap2.png';
-import Teleg from '../assets/Social Media/Social Media/Telegram.png';
-import SocialImg from './SocialImg';
 import CardBorder from './cardBorder.jsx';
 
 const BlocCandidatesWork = () => {
@@ -32,7 +26,6 @@ const BlocCandidatesWork = () => {
 			name: 'cardBorderCandidates6',
 		},
 	};
-	const { t } = useTranslation();
 	return (
 		<div className={styles['container']}>
 			{screenSize.width > 1540 ? (

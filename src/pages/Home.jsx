@@ -8,7 +8,7 @@ import InfoHome from '../components/InfoHome.jsx';
 import CallWork from '../components/CallWork.jsx';
 import ImgWork from '../assets/Rectangle14.svg';
 import ServicesBloc from '../components/ServicesBloc.jsx';
-import '../i18next';
+import '../i18next.js';
 import BlackBlok from '../components/BlackBlok.jsx';
 import BlocFormHom from '../components/BlocFormHom.jsx';
 import BlocInfo from '../components/BlocInfo.jsx';

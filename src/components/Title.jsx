@@ -1,5 +1,7 @@
 import styles from './styles/title.module.css';
 import ok from '../assets/Vector6.png';
+import '../i18next';
+import SpanText from './spanText.jsx';
 // eslint-disable-next-line react/prop-types
 const Title = ({
 	titleHome1,
@@ -20,7 +22,8 @@ const Title = ({
 					}
 				>
 					<span className={styles['title_text']}>{titleHome1}</span>
-					<span className={styles['title_span']}>{titleHome2}</span>
+
+					<SpanText titleHome2={titleHome2} />
 				</p>
 			</div>
 			{!noneText ? (

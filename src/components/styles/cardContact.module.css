@@ -61,3 +61,8 @@
 .card_href_adres a {
 	text-decoration: 1px #73ce04 solid;
 }
+@media (min-width: 1925px) {
+	.card_adres {
+		line-height: 1.6em;
+	}
+}

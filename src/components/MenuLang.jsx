@@ -10,11 +10,22 @@ const MenuLang = () => {
 	const changeLanguage = language => {
 		i18n.changeLanguage(language);
 	};
+	const handleClick = () => {
+		changeLanguage('cz');
+		setIsOpen(!isOpen);
+	};
+	const handleClickEn = () => {
+		changeLanguage('en');
+		setIsOpen(!isOpen);
+	};
 	return (
 		<>
 			<div className={styles.container_down}>
-				<div className={styles.content_down}>
-					<div className={styles.name_switch} onClick={() => changeLanguage('cz')}>
+				<div className={styles.content_down} onClick={() => setIsOpen(!isOpen)}>
+					<div
+						className={styles.name_switch}
+						onClick={() => changeLanguage('cz')}
+					>
 						{t('selecteLang')}
 					</div>
 					<img
@@ -26,10 +37,18 @@ const MenuLang = () => {
 				</div>
 
 				<div className={isOpen ? styles.active_dropdown : styles.dropdown}>
-					<div className={styles.name_switch} onClick={() => changeLanguage('cz')}>
-						CZ
+					<div
+						className={styles.name_switch}
+						// onClick={() => changeLanguage('cz') setIsOpen(!isOpen) }
+						onClick={handleClick}
+					>
+						CS
 					</div>
-					<div className={styles.name_switch} onClick={() => changeLanguage('en')}>
+					<div
+						className={styles.name_switch}
+						// onClick={() => changeLanguage('en')}
+						onClick={handleClickEn}
+					>
 						EN
 					</div>
 				</div>

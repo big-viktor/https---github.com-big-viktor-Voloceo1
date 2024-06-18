@@ -1,6 +1,7 @@
 import styles from './styles/blocEployees.module.css';
 import '../i18next';
 import { useTranslation } from 'react-i18next';
+import SpanText from './spanText.jsx';
 
 const BlocEployees = () => {
 	const { t } = useTranslation();
@@ -14,7 +15,7 @@ const BlocEployees = () => {
 							<span className={styles['title_text']}>
 								{t('titleCompaniEmpoyees')}
 							</span>
-							<span className={styles['title_span']}>{t('titleHom2')}</span>
+							<SpanText titleHome2={t('titleHom2')} />
 						</p>
 						<div className={styles['title_text2']}>
 							{t('textCompaniEmpoyees')}

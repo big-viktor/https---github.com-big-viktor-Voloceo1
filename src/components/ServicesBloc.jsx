@@ -6,7 +6,9 @@ import Titles from './Titles.jsx';
 const ServicesBloc = ({ children }) => {
 	return (
 		<div className={styles['container']}>
-			<Titles title={'serviceBlocTitle'} />
+			<div className={styles['title']}>
+				<Titles title={'serviceBlocTitle'} />
+			</div>
 			<div className={styles['content']}>{children}</div>
 		</div>
 	);

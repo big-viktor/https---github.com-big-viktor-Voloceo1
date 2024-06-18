@@ -100,3 +100,31 @@
 		background: no-repeat url('../../assets/Rectangle28.svg');
 	}
 }
+@media (min-width: 1999px) {
+	.container_blok_back {
+		display: flex;
+		justify-content: flex-end;
+		width: 74%;
+		height: 700px;
+		padding-top: 69px;
+	}
+}
+@media (min-width: 2210px) {
+	.container_blok_back {
+		display: flex;
+		justify-content: flex-end;
+		width: 60%;
+		height: 700px;
+		padding-top: 69px;
+	}
+}
+@media (min-width: 2630px) {
+	.container_blok_back {
+		width: 50%;
+	}
+}
+@media (min-width: 3000px) {
+	.container_blok_back {
+		width: 40%;
+	}
+}

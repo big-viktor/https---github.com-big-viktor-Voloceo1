@@ -11,7 +11,7 @@ const BlocInfoOnas = () => {
 		<>
 			<div className={styles['wrap']}>
 				<div className={styles['container']}>
-					<div>
+					<div className={styles['container__content']}>
 						<p className={styles['title']}>{t('blocInfoTitle')}</p>
 						<div className={styles['blocInfoTextOne']}>
 							{t('blocInfoTextOne')}

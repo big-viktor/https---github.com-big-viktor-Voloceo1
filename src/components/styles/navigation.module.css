@@ -29,6 +29,11 @@
 	margin-block-end: 1em;
 	padding: 0px 0px 0px 0px;
 }
+@media (min-width: 1925px) {
+	.link_name a {
+		font-size: 23px;
+	}
+}
 @media (max-width: 900px) {
 	.link_name a {
 		color: #fff;

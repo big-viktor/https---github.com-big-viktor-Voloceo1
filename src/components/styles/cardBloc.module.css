@@ -6,6 +6,7 @@
 .container_title {
 	padding-bottom: 91px;
 	padding-left: 20px;
+	max-width: 50%;
 }
 .container_content {
 	display: flex;
@@ -21,6 +22,11 @@
 	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 1480px;
+}
+@media (min-width: 2650px) {
+	.container_content2 {
+		max-width: 2007px;
+	}
 }
 @media (max-width: 1535px) {
 	.container_content {

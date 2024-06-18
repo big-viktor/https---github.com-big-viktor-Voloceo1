@@ -45,17 +45,7 @@
 	text-transform: none;
 	text-align: start;
 }
-.content_text span {
-	color: #73ce04;
-	font-size: 28px;
-	font-style: normal;
-	font-family: 'fontMedium', sans-serif;
-	font-weight: 500;
-	line-height: 50px;
-	letter-spacing: 0;
-	text-transform: none;
-	text-align: start;
-}
+
 .container_img {
 	background: #73ce04;
 	width: 100%;
@@ -75,9 +65,12 @@
 }
 @media (min-width: 1925px) {
 	.wrap {
-		max-width: 100%;
+		max-width: 90%;
 		margin: 0 auto;
 		padding: 0px 100px 0px 100px;
+	}
+	.content_text {
+		font-size: 40px;
 	}
 	.content_img {
 		height: 27vw;

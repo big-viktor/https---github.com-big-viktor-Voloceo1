@@ -29,6 +29,16 @@
 	width: 31%;
 	margin-left: 37px;
 }
+@media (min-width: 2200px) {
+	.container_component {
+		height: 637px;
+		width: 31%;
+		margin-left: 37px;
+	}
+	.text {
+		line-height: 60px;
+	}
+}
 @media (max-width: 1590px) {
 	.container_component {
 		height: 411px;

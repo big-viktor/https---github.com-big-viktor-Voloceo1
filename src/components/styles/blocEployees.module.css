@@ -84,7 +84,7 @@
 }
 @media (min-width: 1925px) {
 	.wrap {
-		max-width: 100%;
+		max-width: 99%;
 		margin: 0 auto;
 		padding: 92px 0px 45px 0px;
 	}
@@ -97,7 +97,17 @@
 	}
 	.container_img {
 		height: 22vw;
-		width: 35%;
+		width: 27%;
+	}
+	.container_title {
+		width: 40%;
+	}
+}
+@media (min-width: 2355px) {
+	.wrap {
+		max-width: 99%;
+		margin: 0 auto;
+		padding: 92px 100px 45px 0px;
 	}
 }
 @media (max-width: 1530px) {

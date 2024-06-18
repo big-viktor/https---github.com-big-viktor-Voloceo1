@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBrowserRouter, Outlet } from 'react-router-dom';
-import Home from '../pages/Home.tsx';
+import Home from '../pages/Home.jsx';
 
 import AboutUs from '../pages/AboutUs.jsx';
 import Contact from '../pages/Contact.jsx';

@@ -3,11 +3,17 @@ import { useTranslation } from 'react-i18next';
 import '../i18next';
 
 // eslint-disable-next-line react/prop-types
-const Button = ({ name }) => {
+const Button = ({ name, disableds, capVals }) => {
 	const { t } = useTranslation();
 	return (
 		<>
-			<div className={styles['container_button']}>{t([name])}</div>
+			<button
+				type='submit'
+				disabled={disableds}
+				className={capVals ? styles.container_button : styles.Hover}
+			>
+				{t([name])}
+			</button>
 		</>
 	);
 };
